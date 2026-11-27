@@ -17,7 +17,7 @@ const parser = new XMLParser({
 });
 
 const AI_PATTERN =
-  /\b(a\.?i\.?|artificial intelligence|machine learning|deep learning|llm|llms|gpt[-\s]?\d*|chatgpt|claude|gemini|openai|anthropic|deepmind|mistral|llama|neural|agentic|agents?|chatbot|diffusion|transformer|multimodal|nvidia|inference|fine-?tun\w+|copilot|midjourney|stable diffusion|hugging face|generative)\b/i;
+  /\b(a\.?i\.?|artificial intelligence|machine learning|deep learning|llm|llms|gpt[-\s]?\d*|chatgpt|claude|gemini|openai|anthropic|deepmind|mistral|llama|neural|agentic|agents?|chatbot|diffusion|transformer|multimodal|nvidia|inference|fine-?tun\w+|copilot|midjourney|stable diffusion|hugging face|generative|foundation model|reasoning model|rag)\b|人工智能|大模型|大语言模型|语言模型|机器学习|深度学习|神经网络|多模态|生成式|智能体|提示词|算力|微调/i;
 
 const asArray = (value) => {
   if (value == null) return [];

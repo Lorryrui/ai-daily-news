@@ -227,6 +227,17 @@ button {
   color: var(--accent);
 }
 
+.lang-switch {
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+.lang-switch:hover {
+  border-color: var(--border-strong);
+}
+
 .icon-btn {
   display: inline-grid;
   place-items: center;
@@ -674,6 +685,9 @@ button {
 .sidebar-column {
   position: sticky;
   top: 88px;
+  display: grid;
+  gap: 18px;
+  align-content: start;
 }
 
 .panel {
@@ -758,7 +772,14 @@ button {
   color: var(--text-soft);
 }
 
+.source-list .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .source-list .bar {
+  flex: none;
   height: 4px;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
@@ -769,6 +790,12 @@ button {
   margin-left: auto;
   font-family: var(--mono);
   font-size: 0.74rem;
+  color: var(--text-dim);
+}
+
+.source-more {
+  margin: 12px 0 0;
+  font-size: 0.78rem;
   color: var(--text-dim);
 }
 
@@ -1044,6 +1071,21 @@ kbd {
   .brand__sub,
   .header-nav .nav-label {
     display: none;
+  }
+
+  .header-nav {
+    gap: 2px;
+  }
+
+  .header-nav a {
+    padding: 6px 9px;
+    font-size: 0.82rem;
+  }
+
+  .icon-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
   }
 
   .card {

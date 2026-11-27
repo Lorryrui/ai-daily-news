@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data issue index.html archive.html search-index.json feed.xml .nojekyll styles.css app.js favicon.svg
+          git add -A data issue en index.html archive.html search-index.json feed.xml .nojekyll styles.css app.js favicon.svg
           if git diff --cached --quiet; then
             echo "没有新内容，跳过提交"
           else
@@ -52,7 +52,7 @@ jobs:
       - name: Stage site files
         run: |
           mkdir -p _site
-          cp -r issue _site/
+          cp -r issue en _site/
           cp index.html archive.html search-index.json feed.xml .nojekyll styles.css app.js favicon.svg _site/
 
       - name: Upload Pages artifact

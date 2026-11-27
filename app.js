@@ -1,3 +1,36 @@
+/* 前端文案：站点是双语的，脚本按 <body data-lang> 选用对应文案。 */
+var I18N = {
+  zh: {
+    themeAuto: '主题：跟随系统',
+    themeDark: '主题：深色',
+    themeLight: '主题：浅色',
+    themeHint: '（点击切换）',
+    searchEmpty: '没有找到匹配的内容，换个关键词试试。',
+  },
+  en: {
+    themeAuto: 'Theme: follow system',
+    themeDark: 'Theme: dark',
+    themeLight: 'Theme: light',
+    themeHint: ' (click to change)',
+    searchEmpty: 'Nothing matched. Try another keyword.',
+  },
+};
+var LANG = (document.body && document.body.getAttribute('data-lang')) === 'en' ? 'en' : 'zh';
+var UI = I18N[LANG];
+
+/* 语言切换：记住用户的选择，下次访问不再自动跳转。 */
+(function () {
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('[data-lang-switch]');
+    if (!link) return;
+    try {
+      localStorage.setItem('ainews-lang', link.getAttribute('data-target-lang') || 'zh');
+    } catch (error) {
+      /* 忽略写入失败 */
+    }
+  });
+})();
+
 /* 主题：auto → light → dark 循环，默认跟随系统。 */
 (function () {
   var STORAGE_KEY = 'ainews-theme';
@@ -18,12 +51,10 @@
     else root.setAttribute('data-theme', mode);
     root.setAttribute('data-mode', mode);
     document.querySelectorAll('[data-theme-toggle]').forEach(function (button) {
+      var label = mode === 'auto' ? UI.themeAuto : mode === 'dark' ? UI.themeDark : UI.themeLight;
       button.setAttribute('data-mode', mode);
-      button.setAttribute(
-        'aria-label',
-        mode === 'auto' ? '主题：跟随系统' : mode === 'dark' ? '主题：深色' : '主题：浅色',
-      );
-      button.setAttribute('title', button.getAttribute('aria-label') + '（点击切换）');
+      button.setAttribute('aria-label', label);
+      button.setAttribute('title', label + UI.themeHint);
     });
   }
 
@@ -108,7 +139,7 @@
   function render(items, terms) {
     if (!items.length) {
       results.innerHTML = '';
-      hint.textContent = terms.length ? '没有找到匹配的内容，换个关键词试试。' : '';
+      hint.textContent = terms.length ? UI.searchEmpty : '';
       return;
     }
     hint.textContent = '';

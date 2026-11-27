@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * 静态站点构建脚本。
- *   node scripts/build.mjs            抓取 → 合并历史 → 生成站点
+ *   node scripts/build.mjs            抓取 → 合并历史 → 生成站点（中文 + 英文）
  *   node scripts/build.mjs --offline  只用 data/issues 里已存的数据重新生成页面
  */
 import { copyFile, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
@@ -10,7 +10,9 @@ import { fileURLToPath } from 'node:url';
 
 import { clusterItems, dedupeByUrl } from './lib/cluster.mjs';
 import { collectAll } from './lib/collect.mjs';
-import { SITE, renderArchive, renderHome, renderIssue } from './lib/render.mjs';
+import { LANG_PREFIX, LANGS, langPaths, text } from './lib/i18n.mjs';
+import { renderArchive, renderHome, renderIssue } from './lib/render.mjs';
+import { SITE_URL } from './lib/site.mjs';
 import {
   chinaDateKey,
   chinaTime,
@@ -19,21 +21,24 @@ import {
   issueDateOf,
   longDate,
   truncate,
+  urlKey,
 } from './lib/util.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
 const DATA_DIR = path.join(ROOT, 'data', 'issues');
-const ISSUE_DIR = path.join(ROOT, 'issue');
 const ASSETS_DIR = path.join(ROOT, 'assets');
 
-const SITE_URL = `${(process.env.SITE_URL || 'https://lorryrui.github.io/ai-daily-news').replace(/\/+$/, '')}/`;
 const OFFLINE = process.argv.includes('--offline') || process.env.OFFLINE === '1';
 const MAX_FEED_ITEMS = 50;
 /** 内容太少的期号（多为首次抓取时旧 feed 只剩几条）不发布，避免出现空荡的页面。 */
 const MIN_ISSUE_ITEMS = Number(process.env.MIN_ISSUE_ITEMS ?? 6);
 
-const urlKey = (url) => String(url).replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
+/** 每种语言在站点里的输出目录。 */
+const OUT = {
+  zh: { issueDir: path.join(ROOT, 'issue'), homeDir: ROOT },
+  en: { issueDir: path.join(ROOT, 'en', 'issue'), homeDir: path.join(ROOT, 'en') },
+};
 
 async function writeIfChanged(file, content) {
   await mkdir(path.dirname(file), { recursive: true });
@@ -106,7 +111,7 @@ function mergeIntoStored(stored, items, touched) {
 
 function summarize(entry) {
   const items = clusterItems(entry.items);
-  const stats = { product: 0, news: 0, official: 0, community: 0 };
+  const stats = { product: 0, news: 0, official: 0, insight: 0, community: 0 };
   const sourceCounts = new Map();
   const bump = (source, name) => {
     const current = sourceCounts.get(source) ?? { id: source, name, count: 0 };
@@ -140,7 +145,10 @@ function rfc822(iso) {
   return new Date(iso).toUTCString();
 }
 
-function renderFeed(issues) {
+function renderFeed(issues, lang) {
+  const t = text(lang);
+  const paths = langPaths();
+  const prefix = LANG_PREFIX[lang];
   const latest = issues[issues.length - 1];
   const entries = [];
   for (const issue of [...issues].reverse()) {
@@ -160,7 +168,7 @@ function renderFeed(issues) {
         `<pubDate>${rfc822(item.publishedAt)}</pubDate>`,
         `<description>${esc(item.summary || item.title)}</description>`,
         `<category>${esc(item.sourceName)}</category>`,
-        `<source url="${esc(SITE_URL)}issue/${issue.date}.html">${esc(SITE.name)}</source>`,
+        `<source url="${esc(`${SITE_URL}${prefix}${paths.issue(issue.date)}`)}">${esc(t.siteName)}</source>`,
       ];
       return `    <item>\n      ${parts.join('\n      ')}\n    </item>`;
     })
@@ -169,12 +177,12 @@ function renderFeed(issues) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>${esc(SITE.name)}</title>
-    <link>${esc(SITE_URL)}</link>
-    <description>${esc(SITE.description)}</description>
-    <language>zh-CN</language>
+    <title>${esc(t.siteName)}</title>
+    <link>${esc(`${SITE_URL}${prefix}${paths.home}`)}</link>
+    <description>${esc(t.description)}</description>
+    <language>${lang === 'en' ? 'en' : 'zh-CN'}</language>
     <lastBuildDate>${rfc822(latest?.generatedAt ?? new Date().toISOString())}</lastBuildDate>
-    <atom:link href="${esc(`${SITE_URL}feed.xml`)}" rel="self" type="application/rss+xml"/>
+    <atom:link href="${esc(`${SITE_URL}${prefix}${paths.feed}`)}" rel="self" type="application/rss+xml"/>
 ${body}
   </channel>
 </rss>
@@ -201,17 +209,17 @@ function renderSearchIndex(issues) {
   return `${JSON.stringify({ generatedAt, items })}\n`;
 }
 
-async function pruneIssuePages(keep) {
+async function pruneIssuePages(keep, dir) {
   let files = [];
   try {
-    files = await readdir(ISSUE_DIR);
+    files = await readdir(dir);
   } catch {
     return;
   }
   for (const file of files) {
     if (!file.endsWith('.html') || keep.has(file)) continue;
-    await rm(path.join(ISSUE_DIR, file), { force: true });
-    console.log(`  - 移除不再发布的页面 issue/${file}`);
+    await rm(path.join(dir, file), { force: true });
+    console.log(`  - 移除不再发布的页面 ${path.relative(ROOT, path.join(dir, file))}`);
   }
 }
 
@@ -237,9 +245,7 @@ async function main() {
   } else {
     const { items, reports } = await collectAll({
       onProgress: ({ source, count, error }) => {
-        console.log(
-          error ? `  ✗ ${source.name}: ${error}` : `  ✓ ${source.name}: ${count} 条`,
-        );
+        console.log(error ? `  ✗ ${source.name}: ${error}` : `  ✓ ${source.name}: ${count} 条`);
       },
     });
     const unique = dedupeByUrl(items);
@@ -281,50 +287,59 @@ async function main() {
     if (await writeIfChanged(file, content)) written += 1;
   };
 
-  for (let index = 0; index < issues.length; index += 1) {
-    const issue = issues[index];
-    const html = renderIssue({
-      issue,
-      issues: [...issues].reverse(),
-      prev: issues[index - 1] ?? null,
-      next: issues[index + 1] ?? null,
-      base: '../',
-      canonicalBase: SITE_URL,
-    });
-    await track(path.join(ISSUE_DIR, `${issue.date}.html`), html);
+  const latest = issues[issues.length - 1];
+  const reversed = [...issues].reverse();
+  const keep = new Set(issues.map((issue) => `${issue.date}.html`));
+
+  for (const lang of LANGS) {
+    const out = OUT[lang];
+    const paths = langPaths();
+
+    for (let index = 0; index < issues.length; index += 1) {
+      const issue = issues[index];
+      await track(
+        path.join(out.issueDir, `${issue.date}.html`),
+        renderIssue({
+          issue,
+          issues: reversed,
+          prev: issues[index - 1] ?? null,
+          next: issues[index + 1] ?? null,
+          lang,
+        }),
+      );
+    }
+    await pruneIssuePages(keep, out.issueDir);
+
+    const homeDir = out.homeDir;
+    await track(
+      path.join(homeDir, 'index.html'),
+      renderHome({
+        latest: { issue: latest },
+        issues: reversed,
+        prev: issues[issues.length - 2] ?? null,
+        lang,
+      }),
+    );
+
+    await track(
+      path.join(homeDir, 'archive.html'),
+      renderArchive({
+        issues: reversed,
+        lang,
+        generatedAt: latest.generatedAt,
+      }),
+    );
+
+    await track(path.join(homeDir, 'search-index.json'), renderSearchIndex(issues));
+    await track(path.join(homeDir, 'feed.xml'), renderFeed(issues, lang));
   }
 
-  const latest = issues[issues.length - 1];
-  await pruneIssuePages(new Set(issues.map((issue) => `${issue.date}.html`)));
-  await track(
-    path.join(ROOT, 'index.html'),
-    renderHome({
-      latest: { issue: latest },
-      issues: [...issues].reverse(),
-      prev: issues[issues.length - 2] ?? null,
-      base: '',
-      canonicalBase: SITE_URL,
-    }),
-  );
-
-  await track(
-    path.join(ROOT, 'archive.html'),
-    renderArchive({
-      issues: [...issues].reverse(),
-      base: '',
-      canonicalBase: SITE_URL,
-      generatedAt: latest.generatedAt,
-    }),
-  );
-
-  await track(path.join(ROOT, 'search-index.json'), renderSearchIndex(issues));
-  await track(path.join(ROOT, 'feed.xml'), renderFeed(issues));
   await track(path.join(ROOT, '.nojekyll'), '');
   await copyAssets();
 
   const seconds = ((Date.now() - startedAt) / 1000).toFixed(1);
   console.log(
-    `构建完成：${issues.length} 期，最新 ${longDate(latest.date)}（${latest.total} 条），写入 ${written} 个文件，用时 ${seconds}s`,
+    `构建完成：${issues.length} 期 × ${LANGS.length} 种语言，最新 ${longDate(latest.date)}（${latest.total} 条），写入 ${written} 个文件，用时 ${seconds}s`,
   );
 }
 

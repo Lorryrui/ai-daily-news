@@ -1,11 +1,12 @@
 # AI 日报 · ai-daily-news
 
-自动抓取 [Product Hunt](https://www.producthunt.com/)、[TechCrunch](https://techcrunch.com/category/artificial-intelligence/) 等 15 个来源的 AI 产品与行业动态，每天北京时间 **06:00** 生成一期可直接浏览的静态日报。
+自动抓取 [Product Hunt](https://www.producthunt.com/)、[TechCrunch](https://techcrunch.com/category/artificial-intelligence/)、[量子位](https://www.qbitai.com/) 等 **43 个来源**的 AI 产品与行业动态，每天北京时间 **06:00** 生成一期可直接浏览的静态日报，同时提供**中文与英文**两个版本。
 
-- 线上地址：<https://lorryrui.github.io/ai-daily-news/>
+- 线上地址：<https://lorryrui.github.io/ai-daily-news/>（英文版 `…/en/`）
 - 纯静态：无需数据库与后端，产物由 GitHub Actions 定时抓取并部署到 GitHub Pages
 - 亮色 / 暗色主题，默认跟随系统，可手动切换并记忆
-- 每期按「新产品 / 行业动态 / 官方更新 / 社区热议」分区，合并同一事件的多源报道
+- 语言默认跟随操作系统：中文系统进中文版，其它进英文版；可手动切换并记忆
+- 每期按「新产品 / 行业动态 / 官方更新 / 深度分析 / 社区热议」分区，跨源合并同一事件的报道
 - 支持按日期归档、全站关键词搜索（快捷键 `/` 或 `Ctrl/Cmd + K`）、RSS 订阅
 
 ## 目录结构
@@ -13,18 +14,21 @@
 ```
 .
 ├── scripts/
-│   ├── build.mjs          # 构建入口：抓取 → 合并历史 → 渲染站点
+│   ├── build.mjs          # 构建入口：抓取 → 合并历史 → 渲染双语站点
 │   ├── clean.mjs          # 清理生成产物（保留 data/）
 │   └── lib/
 │       ├── sources.mjs    # 内容源清单（feed / API、分类、权重）
 │       ├── collect.mjs    # 抓取、解析 RSS/Atom/HN API、文本清洗
 │       ├── cluster.mjs    # URL 去重 + 标题相似度聚类
+│       ├── i18n.mjs       # 中英文文案与多语言路由
 │       ├── render.mjs     # HTML 模板（首页 / 期号页 / 归档页 / RSS）
-│       └── util.mjs       # 时间、文本与转义工具
+│       ├── site.mjs       # 站点绝对地址
+│       └── util.mjs       # 时间、文本、去重与转义工具
 ├── assets/                # 源样式与脚本，构建时复制到站点根目录
 ├── data/issues/           # 每期原始数据（JSON），构建时作为历史读回
-├── issue/                 # 生成的每日页面
-├── index.html             # 首页 = 最新一期
+├── issue/                 # 生成的每日页面（中文）
+├── en/                    # 英文版：en/index.html、en/issue/…、en/archive.html
+├── index.html             # 中文首页 = 最新一期
 ├── archive.html           # 归档页
 ├── search-index.json      # 全站搜索索引（浏览器端懒加载）
 └── feed.xml               # RSS 2.0
@@ -51,7 +55,7 @@ npx serve .
 
 | 变量 | 说明 | 默认值 |
 | --- | --- | --- |
-| `SITE_URL` | 站点绝对地址，用于 canonical 与 RSS 链接 | `https://lorryrui.github.io/ai-daily-news/` |
+| `SITE_URL` | 站点绝对地址，用于 canonical、hreflang 与 RSS 链接 | `https://lorryrui.github.io/ai-daily-news/` |
 | `MIN_ISSUE_ITEMS` | 一期最少条目数，低于此值不发布（避免首次抓取出现空期） | `6` |
 | `OFFLINE` | 设为 `1` 等同于 `--offline` | 未设置 |
 
@@ -61,14 +65,27 @@ npx serve .
 
 ## 内容源
 
+共 43 个来源，分五类（`lang` 为 `zh` 的中文源在英文页面同样展示，仅界面文案切换）：
+
 | 分类 | 来源 |
 | --- | --- |
 | 产品 | Product Hunt |
-| 媒体 | TechCrunch、The Verge、The Decoder、MarkTechPost、WIRED、MIT Technology Review、Ars Technica、VentureBeat、Synced、量子位 |
-| 官方 | OpenAI、Google DeepMind、Google AI |
+| 媒体 | TechCrunch、The Verge、The Information、The Decoder、VentureBeat、AI Business、MarkTechPost、InfoQ AI/ML、WIRED、MIT Technology Review、TechRadar、Techmeme、Ars Technica、Analytics India Magazine、ZDNET、MIT News AI、量子位、雷峰网、36氪、InfoQ 中文、爱范儿、IT之家、少数派 |
+| 官方 | OpenAI、Google DeepMind、Google AI、Microsoft Research、Apple Machine Learning、AWS Machine Learning、NVIDIA、NVIDIA Developer、Databricks |
+| 深度 | IEEE Spectrum AI、Simon Willison、Latent Space、One Useful Thing、Together AI、Platformer、Big Technology、Sequoia Capital、Machine Learning Mastery |
 | 社区 | Hacker News（Algolia API） |
 
-排序参考来源权重与热度，同一事件被多家媒体报道时合并为一条，并在卡片下方标注其他来源。任何源抓取失败都只记录日志，不影响其余来源与构建结果。
+泛科技源（如 IT之家、36氪、Hacker News、Techmeme）在 `sources.mjs` 里标记 `filter: 'ai'`，只保留标题/摘要命中 AI 关键词的条目，中英文关键词都在 `collect.mjs` 的 `AI_PATTERN` 中维护。
+
+## 去重策略
+
+同一事件常被多家媒体同时报道，站点做三层去重：
+
+1. **URL 归一化**（`util.urlKey`）：统一协议与大小写、去掉 `www.`、AMP、`index.html`、追踪参数（`utm_*`、`fbclid`、`ref` 等）与锚点，同一链接只留评分最高的一份。
+2. **标题归一化**（`util.normalizeTitle`）：剥离 `| TechCrunch`、` - The Verge` 之类站点后缀与尾部括号补充，去标点、去英文停用词、去中文虚词，4 位年份统一为占位符（版本号如 `gpt5` / `gpt4` 保留区分度）。
+3. **相似度聚类**（`cluster.clusterItems`）：标题词集合 Jaccard ≥ 0.3，或较短标题被覆盖 ≥ 0.58（且较短标题至少 5 个词，避免短标题误判），即视为同一事件。判定时与**簇内任意成员**比较，因此措辞差异大的第三篇报道能通过中间那篇桥接进来；同一来源的多篇文章不合并。
+
+合并后保留权重最高的一条作为卡片主条目，其余来源列在卡片下方「另有 N 家媒体报道」，并在页面摘要里统计合并数量。中文标题按字 bigram 切词，所以中英文标题混排时也能比较。
 
 ## 自动更新
 

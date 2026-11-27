@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>November 20, 2026 · AI Daily Brief</title>
+<meta name="description" content="November 20, 2026 (Friday) — 19 AI product and industry updates from 11 sources. Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo; NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="November 20, 2026 · AI Daily Brief">
+<meta property="og:description" content="November 20, 2026 (Friday) — 19 AI product and industry updates from 11 sources. Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo; NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs">
+<meta property="og:site_name" content="AI Daily Brief">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://lorryrui.github.io/ai-daily-news/en/issue/2026-11-20.html">
+<link rel="alternate" hreflang="zh-CN" href="https://lorryrui.github.io/ai-daily-news/issue/2026-11-20.html">
+<link rel="alternate" hreflang="en" href="https://lorryrui.github.io/ai-daily-news/en/issue/2026-11-20.html">
+<link rel="alternate" hreflang="x-default" href="https://lorryrui.github.io/ai-daily-news/issue/2026-11-20.html">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Daily Brief" href="../feed.xml">
+<link rel="stylesheet" href="../../styles.css">
+<script>(function(){try{var m=localStorage.getItem('ainews-theme');if(m==='light'||m==='dark'){document.documentElement.setAttribute('data-theme',m);}}catch(e){}})();</script>
+</head>
+<body data-lang="en">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="shell site-header__inner">
+    <a class="brand" href="../index.html">
+      <span class="brand__mark" aria-hidden="true">AI</span>
+      <span>AI Daily Brief<span class="brand__sub"> · 06:00 daily</span></span>
+    </a>
+    <nav class="header-nav" aria-label="Primary">
+      <a href="../index.html" aria-current="page">Today</a>
+      <a href="../archive.html">Archive</a>
+      <a class="lang-switch" href="../../issue/2026-11-20.html" hreflang="zh-CN" title="切换到中文" data-lang-switch data-target-lang="zh">中文</a>
+      <button class="icon-btn" type="button" data-search-toggle aria-expanded="false" aria-label="Search (press /)" title="Search (press /)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      <button class="icon-btn theme-toggle" type="button" data-theme-toggle data-mode="auto" aria-label="Theme: follow system" title="Theme: follow system"><svg class="icon-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18"/><path d="M12 21a9 9 0 0 0 0-18" fill="currentColor" stroke="none" opacity=".35"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.1 5.1l1.4 1.4M17.5 17.5l1.4 1.4M18.9 5.1l-1.4 1.4M6.5 17.5l-1.4 1.4"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg></button>
+    </nav>
+  </div>
+</header>
+<div class="shell">
+  <div class="search-panel" data-search-panel data-index="../search-index.json" data-open="false">
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" placeholder="Search products, companies, keywords…  (press /)" aria-label="Search all issues" autocomplete="off">
+    </div>
+    <p class="search-hint" data-search-hint></p>
+    <div class="search-results" data-search-results></div>
+  </div>
+</div>
+<main id="main">
+<div class="hero shell">
+  <span class="eyebrow">Friday · Issue 4</span>
+  <h1><span class="date-part">November 20, 2026</span> AI Daily Brief</h1>
+  <p class="hero__lede">19 AI product and industry updates from 11 sources.</p>
+  <div class="hero__stats">
+    <div class="stat"><strong>19</strong><span>stories</span></div>
+    <div class="stat"><strong>1</strong><span>new products</span></div>
+    <div class="stat"><strong>12</strong><span>industry &amp; official</span></div>
+    <div class="stat"><strong>12:46</strong><span>published (CST)</span></div>
+  </div>
+</div>
+<div class="shell">
+  <div class="layout">
+    <div class="main-column">
+      <section class="highlights" aria-labelledby="hl-title">
+  <h2 id="hl-title"><span class="dot" aria-hidden="true"></span>Today&#39;s highlights</h2>
+  <ol>
+    <li>
+      <a href="https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/" rel="noopener" target="_blank">Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo</a>
+      <span class="meta">NVIDIA Developer · 04:28</span>
+    </li>
+    <li>
+      <a href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/" rel="noopener" target="_blank">NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</a>
+      <span class="meta">NVIDIA · 04:00</span>
+    </li>
+    <li>
+      <a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/" rel="noopener" target="_blank">Introducing Tool Retrieval in the Gemini API</a>
+      <span class="meta">Google AI · 02:00</span>
+    </li>
+    <li>
+      <a href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/" rel="noopener" target="_blank">Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</a>
+      <span class="meta">NVIDIA · 01:00</span>
+    </li>
+    <li>
+      <a href="https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/" rel="noopener" target="_blank">Walter Isaacson on curiosity and creativity in the AI age.</a>
+      <span class="meta">Google AI · 01:00</span>
+    </li>
+  </ol>
+</section>
+      <section class="section" id="product">
+  <div class="section__head">
+    <h2>New products</h2>
+    <span class="count">1</span>
+    <span class="section__hint">Fresh AI apps from Product Hunt and other launch platforms</span>
+  </div>
+  <div class="cards">
+    <article class="card">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--product">Product Hunt</span>
+      <span class="card__time">00:45</span>
+      
+    </div>
+    <h3><a href="https://www.producthunt.com/products/airbots" rel="noopener" target="_blank">Airbot</a></h3>
+    <p class="card__summary">The AI chief of staff that texts you first</p>
+    <div class="card__foot">
+      <span>Product</span>
+      
+      
+    </div>
+  </div>
+  
+</article>
+  </div>
+</section>
+<section class="section" id="news">
+  <div class="section__head">
+    <h2>Industry news</h2>
+    <span class="count">2</span>
+    <span class="section__hint">Selected AI coverage from tech media</span>
+  </div>
+  <div class="cards">
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--news">TechRadar</span>
+      <span class="card__time">00:50</span>
+      
+    </div>
+    <h3><a href="https://www.techradar.com/ai-platforms-assistants/google-gemini-can-now-see-where-your-money-goes-analyze-your-spending-and-even-find-your-tickets-so-i-connected-my-bank-account-to-see-how-useful-it-really-is" rel="noopener" target="_blank">Gemini can now analyze your spending through Google Wallet</a></h3>
+    <p class="card__summary">I generally have a reasonable idea of where my money goes each month, but Google Gemini&#39;s newest integration promises to open up new insight into my spending and suggest better budgeting by letting the AI assistant…</p>
+    <div class="card__foot">
+      <span>News</span>
+      <span class="tag">AI Platforms &amp;…</span><span class="tag">Gemini</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://cdn.mos.cms.futurecdn.net/KzVEENfW8FWnFYDeuWR573-1920-80.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--news">MIT News AI</span>
+      <span class="card__time">11/19 22:00</span>
+      
+    </div>
+    <h3><a href="https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119" rel="noopener" target="_blank">Study reveals data centers’ long-distance damage to air quality</a></h3>
+    <p class="card__summary">The rapid expansion of data centers for artificial intelligence causes negative health and air quality impacts in regions far from where the brick-and-mortar facilities are located, according to a new study by MIT…</p>
+    <div class="card__foot">
+      <span>News</span>
+      <span class="tag">Research</span><span class="tag">Emissions</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+  </div>
+</section>
+<section class="section" id="official">
+  <div class="section__head">
+    <h2>From the labs</h2>
+    <span class="count">10</span>
+    <span class="section__hint">First-hand posts from AI labs and companies</span>
+  </div>
+  <div class="cards">
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">Google AI</span>
+      <span class="card__time">02:00</span>
+      
+    </div>
+    <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/" rel="noopener" target="_blank">Introducing Tool Retrieval in the Gemini API</a></h3>
+    <p class="card__summary">Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Developer tools</span><span class="tag">AI</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">Google AI</span>
+      <span class="card__time">01:00</span>
+      
+    </div>
+    <h3><a href="https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/" rel="noopener" target="_blank">Walter Isaacson on curiosity and creativity in the AI age.</a></h3>
+    <p class="card__summary">Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">AI</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">NVIDIA</span>
+      <span class="card__time">04:00</span>
+      
+    </div>
+    <h3><a href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/" rel="noopener" target="_blank">NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</a></h3>
+    <p class="card__summary">NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and…</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">AI Infrastructure</span><span class="tag">Cloud</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">NVIDIA</span>
+      <span class="card__time">01:00</span>
+      
+    </div>
+    <h3><a href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/" rel="noopener" target="_blank">Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</a></h3>
+    <p class="card__summary">Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA…</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Robotics</span><span class="tag">Agentic AI</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://blogs.nvidia.com/wp-content/uploads/2026/10/Copy-of-nvidia-ov-x-astra-4up-KV-r1-press-4k-r2-scaled.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">NVIDIA Developer</span>
+      <span class="card__time">04:28</span>
+      
+    </div>
+    <h3><a href="https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/" rel="noopener" target="_blank">Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo</a></h3>
+    <p class="card__summary">Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate...Reinforcement learning (RL) uses rewards to train models…</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Agentic AI /…</span><span class="tag">Data Center /…</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/image3-17-768x432.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">NVIDIA Developer</span>
+      <span class="card__time">01:00</span>
+      
+    </div>
+    <h3><a href="https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/" rel="noopener" target="_blank">Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition</a></h3>
+    <p class="card__summary">In science and industry, analyzing sensor measurements in real time can enable AI to adjust processes, guide experiments, and search for better operating...In science and industry, analyzing sensor measurements in real…</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Developer Tools…</span><span class="tag">Edge Computing</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/electron-energy-loss-spectroscopy-768x432.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">NVIDIA Developer</span>
+      <span class="card__time">00:30</span>
+      
+    </div>
+    <h3><a href="https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/" rel="noopener" target="_blank">Build Tool-Calling Parsers in Rust with AI Agents</a></h3>
+    <p class="card__summary">A tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. A frontend parser turns that output, received...A tool call can arrive in pieces, an argument can be cut…</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Agentic AI /…</span><span class="tag">Developer Tools…</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/agentic-ai-rl-gym-1024x576-1-768x432.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">Databricks</span>
+      <span class="card__time">05:30</span>
+      
+    </div>
+    <h3><a href="https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer" rel="noopener" target="_blank">Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues</a></h3>
+    <p class="card__summary">In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Platform</span><span class="tag">Product</span>
+      
+    </div>
+  </div>
+  
+</article>
+    <article class="card">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">Databricks</span>
+      <span class="card__time">04:15</span>
+      
+    </div>
+    <h3><a href="https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context" rel="noopener" target="_blank">Genie One Accuracy: Why Curated Agents Need Governed Context</a></h3>
+    <p class="card__summary">Ask Finance and Underwriting whether the loss ratio improved from 2024 to 2025, and...</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Data Strategy</span><span class="tag">Best Practices</span>
+      
+    </div>
+  </div>
+  
+</article>
+    <article class="card">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--official">Databricks</span>
+      <span class="card__time">03:30</span>
+      
+    </div>
+    <h3><a href="https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries" rel="noopener" target="_blank">Four AI Architecture Patterns for Regulated Industries</a></h3>
+    <p class="card__summary">Enterprise AI cannot replace every deterministic control. These four patterns help...</p>
+    <div class="card__foot">
+      <span>Official</span>
+      <span class="tag">Data Strategy</span>
+      
+    </div>
+  </div>
+  
+</article>
+  </div>
+</section>
+<section class="section" id="insight">
+  <div class="section__head">
+    <h2>Deep dives</h2>
+    <span class="count">6</span>
+    <span class="section__hint">Long reads, analysis and research notes</span>
+  </div>
+  <div class="cards">
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--insight">IEEE Spectrum AI</span>
+      <span class="card__time">11/19 23:00</span>
+      
+    </div>
+    <h3><a href="https://spectrum.ieee.org/ai-agent-manager" rel="noopener" target="_blank">Meet Shepherd, the Meta-Agent Keeping Rogue AI in Check</a></h3>
+    <p class="card__summary">AI agents are running amok on the internet, armed with commands to accomplish certain tasks but often acting in undesirable or unexpected ways. These rogue incidents run the gamut from deleting an entire email inbox to…</p>
+    <div class="card__foot">
+      <span>Deep dive</span>
+      <span class="tag">Agentic-ai</span><span class="tag">Alignment</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://spectrum.ieee.org/media-library/illustration-of-an-ai-agent-supervising-and-designating-tasks-to-smaller-ai-agents.jpg?id=68511562&amp;amp;width=980" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--insight">IEEE Spectrum AI</span>
+      <span class="card__time">11/19 20:00</span>
+      
+    </div>
+    <h3><a href="https://spectrum.ieee.org/ai-superintelligence-debate" rel="noopener" target="_blank">Why a Computer Scientist Thinks Superintelligence Won’t Happen</a></h3>
+    <p class="card__summary">Many people were caught off guard this past summer when employees of one of the world’s leading AI companies began casually debating whether their products would lead to human extinction. It started when Anthropic…</p>
+    <div class="card__foot">
+      <span>Deep dive</span>
+      <span class="tag">Superintelligence</span><span class="tag">Artificial-general…</span>
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://spectrum.ieee.org/media-library/pop-art-robot-head-wired-to-colorful-neural-network-nodes-on-patterned-background.png?id=68699683&amp;amp;width=980" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--insight">Big Technology</span>
+      <span class="card__time">00:48</span>
+      
+    </div>
+    <h3><a href="https://www.bigtechnology.com/p/eight-thoughts-on-anthropics-ipo" rel="noopener" target="_blank">Eight Thoughts On Anthropic’s IPO (And What Comes Next)</a></h3>
+    <p class="card__summary">Anthropic raised a staggering $81 billion in its IPO Thursday, selling 980,000,000 shares at $83 a piece. The company’s shares are set to hit the public markets above $100 each, with a $2 trillion valuation in sight…</p>
+    <div class="card__foot">
+      <span>Deep dive</span>
+      
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://substackcdn.com/image/fetch/$s_!2QEl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f086d67-a3b9-48bf-9f69-e591d0f4c5a4_1644x968.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+    <article class="card">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--insight">Together AI</span>
+      <span class="card__time">11/19 08:00</span>
+      
+    </div>
+    <h3><a href="https://www.together.ai/blog/tencent-hy4" rel="noopener" target="_blank">Tencent Hy4 is live on Together AI</a></h3>
+    <p class="card__summary">Tencent Hy4 is live on Together AI. We tested its image input by extracting and rebuilding a chart, then tried its coding with a browser game generated from one prompt.</p>
+    <div class="card__foot">
+      <span>Deep dive</span>
+      
+      
+    </div>
+  </div>
+  
+</article>
+    <article class="card">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--insight">Together AI</span>
+      <span class="card__time">11/19 08:00</span>
+      
+    </div>
+    <h3><a href="https://www.together.ai/blog/introducing-together-storage-accelerator" rel="noopener" target="_blank">Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster</a></h3>
+    <p class="card__summary">Together Storage Accelerator is a distributed caching layer for Together GPU Clusters: about 20x faster warm reads, one origin fetch per cluster, no application changes, and it&#39;s included free.</p>
+    <div class="card__foot">
+      <span>Deep dive</span>
+      
+      
+    </div>
+  </div>
+  
+</article>
+    <article class="card card--with-image">
+  <div class="card__body">
+    <div class="card__top">
+      <span class="badge badge--insight">Machine Learning Mastery</span>
+      <span class="card__time">11/19 22:06</span>
+      
+    </div>
+    <h3><a href="https://machinelearningmastery.com/model-compression-beyond-quantization/" rel="noopener" target="_blank">Model Compression Beyond Quantization</a></h3>
+    <p class="card__summary">Overview This post is divided into three parts; they are: • Pruning and Sparsity • Structured Pruning • Knowledge Distillation Pruning and Sparsity Pruning sets selected model parameters to zero or removes larger…</p>
+    <div class="card__foot">
+      <span>Deep dive</span>
+      
+      
+    </div>
+  </div>
+  <div class="card__media"><img src="https://machinelearningmastery.com/wp-content/uploads/2026/11/kutan-ural-MZPwImQUDM0-unsplash-scaled.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+</article>
+  </div>
+</section>
+      <nav class="pager" aria-label="">
+  <a class="prev" href="../issue/2026-11-19.html"><span class="dir">← Previous</span><span class="t">November 19, 2026 · 11 items</span></a>
+  <a class="next" href="../issue/2026-11-21.html"><span class="dir">Next →</span><span class="t">November 21, 2026 · 24 items</span></a>
+</nav>
+    </div>
+    <div class="sidebar-column">
+      <aside class="sidebar" aria-label="Sidebar">
+  <section class="panel">
+    <h2>Past issues</h2>
+    <div class="month-group">
+      <p>November 2026</p>
+      <ul class="archive-list">
+        <li><a href="../issue/2026-11-27.html">
+          <span>11/27 Friday</span>
+          <span class="n">77</span>
+        </a></li><li><a href="../issue/2026-11-26.html">
+          <span>11/26 Thursday</span>
+          <span class="n">77</span>
+        </a></li><li><a href="../issue/2026-11-25.html">
+          <span>11/25 Wednesday</span>
+          <span class="n">66</span>
+        </a></li><li><a href="../issue/2026-11-24.html">
+          <span>11/24 Tuesday</span>
+          <span class="n">33</span>
+        </a></li><li><a href="../issue/2026-11-23.html">
+          <span>11/23 Monday</span>
+          <span class="n">7</span>
+        </a></li><li><a href="../issue/2026-11-22.html">
+          <span>11/22 Sunday</span>
+          <span class="n">8</span>
+        </a></li><li><a href="../issue/2026-11-21.html">
+          <span>11/21 Saturday</span>
+          <span class="n">24</span>
+        </a></li><li><a href="../issue/2026-11-20.html" aria-current="page">
+          <span>11/20 Friday</span>
+          <span class="n">19</span>
+        </a></li><li><a href="../issue/2026-11-19.html">
+          <span>11/19 Thursday</span>
+          <span class="n">11</span>
+        </a></li><li><a href="../issue/2026-11-18.html">
+          <span>11/18 Wednesday</span>
+          <span class="n">11</span>
+        </a></li><li><a href="../issue/2026-11-17.html">
+          <span>11/17 Tuesday</span>
+          <span class="n">11</span>
+        </a></li>
+      </ul>
+    </div>
+    <p style="margin:14px 0 0;font-size:.82rem"><a href="../archive.html" style="color:var(--accent)">View all 11 issues →</a></p>
+  </section>
+</aside>
+      <aside class="sidebar" aria-label="Sources this issue">
+  <section class="panel">
+    <h2>Sources this issue</h2>
+    <ul class="source-list">
+      <li>
+        <span class="name">NVIDIA Developer</span>
+        <span class="bar" style="width:46px"></span>
+        <span class="n">3</span>
+      </li><li>
+        <span class="name">Databricks</span>
+        <span class="bar" style="width:46px"></span>
+        <span class="n">3</span>
+      </li><li>
+        <span class="name">Google AI</span>
+        <span class="bar" style="width:31px"></span>
+        <span class="n">2</span>
+      </li><li>
+        <span class="name">NVIDIA</span>
+        <span class="bar" style="width:31px"></span>
+        <span class="n">2</span>
+      </li><li>
+        <span class="name">IEEE Spectrum AI</span>
+        <span class="bar" style="width:31px"></span>
+        <span class="n">2</span>
+      </li><li>
+        <span class="name">Together AI</span>
+        <span class="bar" style="width:31px"></span>
+        <span class="n">2</span>
+      </li><li>
+        <span class="name">Product Hunt</span>
+        <span class="bar" style="width:15px"></span>
+        <span class="n">1</span>
+      </li><li>
+        <span class="name">TechRadar</span>
+        <span class="bar" style="width:15px"></span>
+        <span class="n">1</span>
+      </li><li>
+        <span class="name">Big Technology</span>
+        <span class="bar" style="width:15px"></span>
+        <span class="n">1</span>
+      </li><li>
+        <span class="name">MIT News AI</span>
+        <span class="bar" style="width:15px"></span>
+        <span class="n">1</span>
+      </li><li>
+        <span class="name">Machine Learning Mastery</span>
+        <span class="bar" style="width:15px"></span>
+        <span class="n">1</span>
+      </li>
+    </ul>
+    
+  </section>
+</aside>
+    </div>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="shell site-footer__inner">
+    <p style="margin:0">AI Daily Brief · Content belongs to the original publishers · Generated at 12:46 (Beijing time)</p>
+    <p style="margin:0">
+      <a href="../archive.html">All issues</a>
+      <span class="sep">/</span>
+      <a href="../index.html">Latest issue</a>
+      <span class="sep">/</span>
+      <a href="https://github.com/Lorryrui/ai-daily-news" rel="noopener">Source</a>
+    </p>
+  </div>
+</footer>
+<script src="../../app.js" defer></script>
+</body>
+</html>
