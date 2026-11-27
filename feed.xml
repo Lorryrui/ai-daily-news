@@ -71,15 +71,6 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error</title>
-      <link>https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</link>
-      <guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</guid>
-      <pubDate>Thu, 26 Nov 2026 17:28:56 GMT</pubDate>
-      <description>OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business…</description>
-      <category>The Decoder</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
       <title>42 state AGs are trying to stop Character.AI from selling users’ chats</title>
       <link>https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats</link>
       <guid isPermaLink="true">https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats</guid>
@@ -95,51 +86,6 @@
       <pubDate>Wed, 25 Nov 2026 22:44:32 GMT</pubDate>
       <description>The credit rating agency may lower Nvidia&#39;s credit rating to AA-, the fourth-highest rating.</description>
       <category>TechCrunch</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it</title>
-      <link>https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/</link>
-      <guid isPermaLink="true">https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/</guid>
-      <pubDate>Thu, 26 Nov 2026 19:31:46 GMT</pubDate>
-      <description>Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI&#39;s recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to…</description>
-      <category>The Decoder</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead</title>
-      <link>https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</link>
-      <guid isPermaLink="true">https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</guid>
-      <pubDate>Thu, 26 Nov 2026 15:45:08 GMT</pubDate>
-      <description>Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI…</description>
-      <category>The Decoder</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040</title>
-      <link>https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/</link>
-      <guid isPermaLink="true">https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/</guid>
-      <pubDate>Thu, 26 Nov 2026 13:41:07 GMT</pubDate>
-      <description>The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating…</description>
-      <category>The Decoder</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks</title>
-      <link>https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</link>
-      <guid isPermaLink="true">https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</guid>
-      <pubDate>Thu, 26 Nov 2026 11:30:06 GMT</pubDate>
-      <description>Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and…</description>
-      <category>The Decoder</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls</title>
-      <link>https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</link>
-      <guid isPermaLink="true">https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</guid>
-      <pubDate>Thu, 26 Nov 2026 11:21:16 GMT</pubDate>
-      <description>Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking…</description>
-      <category>The Decoder</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
@@ -206,15 +152,6 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>Trump to Lead TSMC Arizona Groundbreaking Ceremony After Bringing Huang Back to Nvidia</title>
-      <link>https://www.theinformation.com/briefings/trump-lead-tsmc-arizona-groundbreaking-ceremony-bringing-huang-back-nvidia</link>
-      <guid isPermaLink="true">https://www.theinformation.com/briefings/trump-lead-tsmc-arizona-groundbreaking-ceremony-bringing-huang-back-nvidia</guid>
-      <pubDate>Thu, 26 Nov 2026 03:21:48 GMT</pubDate>
-      <description>President Donald Trump will lead a groundbreaking ceremony on December 4 for the expansion of Taiwan Semiconductor Manufacturing Company‘s chip plant in Phoenix, Bloomberg reported, citing a White House official. TSMC…</description>
-      <category>The Information</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
       <title>沈向洋刚讲了好多AI非共识啊</title>
       <link>https://www.qbitai.com/2026/11/512840.html</link>
       <guid isPermaLink="true">https://www.qbitai.com/2026/11/512840.html</guid>
@@ -224,93 +161,12 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>S&amp;P Discovers Nvidia’s Governance Lapses</title>
-      <link>https://www.theinformation.com/articles/s-p-discovers-nvidias-governance-lapses</link>
-      <guid isPermaLink="true">https://www.theinformation.com/articles/s-p-discovers-nvidias-governance-lapses</guid>
-      <pubDate>Wed, 25 Nov 2026 22:31:16 GMT</pubDate>
-      <description>Credit agencies aren’t known for being ahead of the pack when it comes to spotting weaknesses at companies. (If you don’t believe me, check out their role in the 2008 financial crisis.) But S&amp;P’s note on Wednesday…</description>
-      <category>The Information</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验</title>
-      <link>https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html</guid>
-      <pubDate>Thu, 26 Nov 2026 12:50:00 GMT</pubDate>
-      <description>聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。 作者丨齐铖湧 编辑丨岑 峰 近日，行业独角兽企业生数科技正式发布 Motubrain 2.0，并宣布将于近期开源。 这次发布包括一个 20B 参数的世界动作模型（WAM），以及一套名为 Motubrain-Harness 的智能体系统。 过去一个月里，生数科技把 Motubrain 2.0 的预训练搬上了公开直播：25 天，600 小时，20 万步训练，19 个…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>美团：预计到今年年底，妙手酒店版·既白将覆盖近40万商家</title>
-      <link>https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html</guid>
-      <pubDate>Thu, 26 Nov 2026 11:20:00 GMT</pubDate>
-      <description>11月25日，在中国饭店业高质量大会上，美团披露酒店AI经营工具的最新进展。美团预计，到2026年底，妙手酒店版·既白将覆盖近40万家酒店商家。商家可通过美团经营后台进入既白AI查看周边市场变化、分析门店经营情况，也可以使用日常语言提问，获取价格建议和经营参考，降低商家使用门槛。 据美团酒店数据，11月以来，既白AI活跃商家的线上交易额较未使用商家高7%；深度使用既白商家的订单量同比增长22%。随着AI工具融入酒店商家的日常经营…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>手表和眼镜，如何成为AI智能体的「随身感官」？</title>
-      <link>https://www.leiphone.com/category/chips/1tx0UpMMROQn9vCW.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/chips/1tx0UpMMROQn9vCW.html</guid>
-      <pubDate>Thu, 26 Nov 2026 09:22:00 GMT</pubDate>
-      <description>去年，Humane关闭了AI Pin的消费者云服务。这款别在衣服上的AI设备一度被寄予厚望，用户只需开口，就能完成许多原本需要掏出手机才能做的事。AI Pin最终没能进入主流市场，却给后来者留下了一道产品定义题，手机已经有了成熟的计算、通信和应用生态，用户为什么还需要一件戴在身上的AI设备？ 11月25日，在深圳举行的第七届紫光展锐智能穿戴沙龙上，紫光展锐智能穿戴产品线总经理李彬重新提起了AI Pin。在他看来…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案</title>
-      <link>https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html</guid>
-      <pubDate>Thu, 26 Nov 2026 02:23:00 GMT</pubDate>
-      <description>作者丨高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 MiniMax 官方展示，其最新内部模型 MIM， 接连攻破了多个NIST 密码候选方案和顶会最新发表的前沿成果。在TII McEliece 中直接恢复了94个私钥，其中 55 个为全球首次攻克…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>独家 | 华人 CV 先驱权龙二次创业，成立空间与物理 AI 公司「Envision AI」</title>
-      <link>https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html</guid>
-      <pubDate>Thu, 26 Nov 2026 02:09:00 GMT</pubDate>
-      <description>融合语言、逻辑、几何、物理规律，要做统一和通用的空间物理原生基模。 作者丨幸丽娟 编辑丨岑 峰 AI科技评论独家获悉，香港科技大学计算机科学与工程系教授、前苹果空间智能首席科学家权龙二次创业，成立公司“Envision AI”（格秩科技），进军空间与物理 AI 赛道。公司的目标，是打造一个通用的空间物理原生基模：基于大语言模型，从视觉出发，把文本、图像、空间与物理信息统一进同一套体系，推动物理 AI “ChatGPT 时刻”的加速到来…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>机器人量产背后，物理AI开始算新账：研发底座何必各自建？</title>
-      <link>https://www.leiphone.com/category/chips/HQvbSEUnkDy0Tos9.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/chips/HQvbSEUnkDy0Tos9.html</guid>
-      <pubDate>Thu, 26 Nov 2026 01:35:00 GMT</pubDate>
-      <description>2026年，人形机器人加速走出实验室。 但是让机器人在真实世界产生价值，依然复杂而成本高昂。 从数据采集、物理仿真到模型训练、真机验证，机器人每掌握一项新技能，背后都可能是一整套研发流程的反复运转。 更复杂的是，这些能力分散在不同的专业厂商手中。产业分工越来越细，如何将分散的技术能力组织起来，反而成了一道新的难题。 当机器人开始规模化交付，产业需要解决的不只是如何造出更多机器人，还有如何让更多企业以更低的成本训练机器人…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>一月只开工两三天！奥迪中国回应长春工厂产能利用率跌破10%；Anthropic创始人兄妹上市次日套现37亿；小鹏智驾拟开启全球付费订阅</title>
-      <link>https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html</link>
-      <guid isPermaLink="true">https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html</guid>
-      <pubDate>Thu, 26 Nov 2026 01:30:00 GMT</pubDate>
-      <description>要闻提示 1.Anthropic创始人兄妹上市次日套现37亿元 2.一月只开工两三天，被称“幽灵工厂”！奥迪中国回应长春工厂产能利用率跌破10% 3.打脸自己？小鹏图灵AI智驾将于明年二季度开启全球收费订阅 4.希音披露美国FTC调查最新进展：将向美国财政部支付1亿美元 5.B站陈睿回应短剧冲击：我们没受影响 6.华为将展示自研HBM、逻辑堆叠等技术 7.特朗普称美国政府入股英伟达犹未为晚，自称早就想过但一直没说…</description>
-      <category>雷峰网</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
       <title>Quoting Jack Despain Zhou</title>
       <link>https://simonwillison.net/2026/Nov/26/jack-despain-zhou/</link>
       <guid isPermaLink="true">https://simonwillison.net/2026/Nov/26/jack-despain-zhou/</guid>
       <pubDate>Thu, 26 Nov 2026 15:09:31 GMT</pubDate>
       <description>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find…</description>
       <category>Simon Willison</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>The Download: Better bionic hands and AI’s natural-gas boom</title>
-      <link>https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/</link>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/</guid>
-      <pubDate>Thu, 26 Nov 2026 13:10:00 GMT</pubDate>
-      <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost…</description>
-      <category>MIT Technology Review</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
@@ -332,30 +188,75 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains</title>
-      <link>https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/</guid>
-      <pubDate>Thu, 26 Nov 2026 10:51:27 GMT</pubDate>
-      <description>The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.</description>
-      <category>WIRED</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>The next generation of bionic hands is here—and they can feel</title>
-      <link>https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/</link>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/</guid>
-      <pubDate>Thu, 26 Nov 2026 09:59:00 GMT</pubDate>
-      <description>Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For…</description>
-      <category>MIT Technology Review</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
       <title>The New York Times warns photographers not to update Photoshop over AI features</title>
       <link>https://simonwillison.net/2026/Nov/26/hn-50651685/</link>
       <guid isPermaLink="true">https://simonwillison.net/2026/Nov/26/hn-50651685/</guid>
       <pubDate>Thu, 26 Nov 2026 05:08:46 GMT</pubDate>
       <description>My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly…</description>
       <category>Simon Willison</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Quoting Scott Aaronson</title>
+      <link>https://simonwillison.net/2026/Nov/25/scott-aaronson/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/25/scott-aaronson/</guid>
+      <pubDate>Wed, 25 Nov 2026 23:26:32 GMT</pubDate>
+      <description>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van…</description>
+      <category>Simon Willison</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error</title>
+      <link>https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</link>
+      <guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</guid>
+      <pubDate>Thu, 26 Nov 2026 17:28:56 GMT</pubDate>
+      <description>OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business…</description>
+      <category>The Decoder</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Prefix Caching and Prompt Reuse</title>
+      <link>https://machinelearningmastery.com/prefix-caching-and-prompt-reuse/</link>
+      <guid isPermaLink="true">https://machinelearningmastery.com/prefix-caching-and-prompt-reuse/</guid>
+      <pubDate>Thu, 26 Nov 2026 17:06:54 GMT</pubDate>
+      <description>Overview This post is divided into five parts; they are: • Reusing Prefill Work • Finding the Longest Cached Prefix • Block Hashes, Radix Trees, and Compatibility • Designing Prompts for Reuse • Capacity and Measurement…</description>
+      <category>Machine Learning Mastery</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Running 1-Bit LLMs Locally: A Practical Guide to BitNet Inference</title>
+      <link>https://machinelearningmastery.com/running-1-bit-llms-locally-a-practical-guide-to-bitnet-inference/</link>
+      <guid isPermaLink="true">https://machinelearningmastery.com/running-1-bit-llms-locally-a-practical-guide-to-bitnet-inference/</guid>
+      <pubDate>Thu, 26 Nov 2026 11:00:00 GMT</pubDate>
+      <description>Before running anything, it helps to know what Microsoft measured.</description>
+      <category>Machine Learning Mastery</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it</title>
+      <link>https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/</link>
+      <guid isPermaLink="true">https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/</guid>
+      <pubDate>Thu, 26 Nov 2026 19:31:46 GMT</pubDate>
+      <description>Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI&#39;s recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to…</description>
+      <category>The Decoder</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>NVIDIA Halts AI Server Shipments to 4 Southeast Asian Countries: Report</title>
+      <link>https://analyticsindiamag.com/ai-news/nvidia-halts-ai-server-shipments-to-4-southeast-asian-countries-report</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/nvidia-halts-ai-server-shipments-to-4-southeast-asian-countries-report</guid>
+      <pubDate>Thu, 26 Nov 2026 17:10:28 GMT</pubDate>
+      <description>NVIDIA has instructed its manufacturing partners to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, as reported by the Financial Times (FT). The move comes as the US tightens export controls to…</description>
+      <category>Analytics India Magazine</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Coforge Adds Cybersecurity Patches to AI Enterprise Suite in Wake of Vulnerabilities</title>
+      <link>https://analyticsindiamag.com/ai-news/coforge-expands-nuuron-with-ai-led-vulnerability-remediation</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/coforge-expands-nuuron-with-ai-led-vulnerability-remediation</guid>
+      <pubDate>Thu, 26 Nov 2026 17:06:15 GMT</pubDate>
+      <description>Coforge has expanded its Nuuron enterprise AI suite with new capabilities for remediating cybersecurity vulnerabilities across infrastructure, applications, cloud environments, data platforms, and AI systems. The…</description>
+      <category>Analytics India Magazine</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
@@ -377,12 +278,21 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>Quoting Scott Aaronson</title>
-      <link>https://simonwillison.net/2026/Nov/25/scott-aaronson/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/25/scott-aaronson/</guid>
-      <pubDate>Wed, 25 Nov 2026 23:26:32 GMT</pubDate>
-      <description>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van…</description>
-      <category>Simon Willison</category>
+      <title>After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead</title>
+      <link>https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</link>
+      <guid isPermaLink="true">https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</guid>
+      <pubDate>Thu, 26 Nov 2026 15:45:08 GMT</pubDate>
+      <description>Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI…</description>
+      <category>The Decoder</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040</title>
+      <link>https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/</link>
+      <guid isPermaLink="true">https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/</guid>
+      <pubDate>Thu, 26 Nov 2026 13:41:07 GMT</pubDate>
+      <description>The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating…</description>
+      <category>The Decoder</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
@@ -395,6 +305,33 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
+      <title>The Download: Better bionic hands and AI’s natural-gas boom</title>
+      <link>https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/</guid>
+      <pubDate>Thu, 26 Nov 2026 13:10:00 GMT</pubDate>
+      <description>This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost…</description>
+      <category>MIT Technology Review</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Threatened by SaaSpocalypse, 9 Bets Defined Indian IT’s AI Strategy in 2026</title>
+      <link>https://analyticsindiamag.com/it-services/threatened-by-saaspocalypse-9-bets-defined-indian-its-ai-strategy-in-2026</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/it-services/threatened-by-saaspocalypse-9-bets-defined-indian-its-ai-strategy-in-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 12:58:19 GMT</pubDate>
+      <description>Earlier this year, Indian IT companies were spooked by the prospect of autonomous agents replacing both SaaS tools and outsourced services. On February 3, Anthropic rolled out 11 open-source plugins for Claude Cowork…</description>
+      <category>Analytics India Magazine</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验</title>
+      <link>https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html</link>
+      <guid isPermaLink="true">https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html</guid>
+      <pubDate>Thu, 26 Nov 2026 12:50:00 GMT</pubDate>
+      <description>聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。 作者丨齐铖湧 编辑丨岑 峰 近日，行业独角兽企业生数科技正式发布 Motubrain 2.0，并宣布将于近期开源。 这次发布包括一个 20B 参数的世界动作模型（WAM），以及一套名为 Motubrain-Harness 的智能体系统。 过去一个月里，生数科技把 Motubrain 2.0 的预训练搬上了公开直播：25 天，600 小时，20 万步训练，19 个…</description>
+      <category>雷峰网</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
       <title>Analysis: institutional investors are selling stakes in older VC funds from the 2021 investment boom peak at steep discounts and rushing to back new AI funds (Financial Times)</title>
       <link>https://www.techmeme.com/261126/p14#a261126p14</link>
       <guid isPermaLink="true">https://www.techmeme.com/261126/p14#a261126p14</guid>
@@ -404,12 +341,48 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell</title>
-      <link>https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/?utm_campaign=infoq_content&amp;amp;utm_source=infoq&amp;amp;utm_medium=feed&amp;amp;utm_term=AI%2C+ML+%26+Data+Engineering</link>
-      <guid isPermaLink="true">https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/?utm_campaign=infoq_content&amp;amp;utm_source=infoq&amp;amp;utm_medium=feed&amp;amp;utm_term=AI%2C+ML+%26+Data+Engineering</guid>
-      <pubDate>Thu, 26 Nov 2026 11:00:00 GMT</pubDate>
-      <description>Rachel Shalom explains how Dell solved enterprise RAG retrieval failures on internal terminology by fine-tuning open-source embedding models. She discusses data prep with hard negatives, distributed InfoNCE loss…</description>
-      <category>InfoQ AI/ML</category>
+      <title>Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks</title>
+      <link>https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</link>
+      <guid isPermaLink="true">https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</guid>
+      <pubDate>Thu, 26 Nov 2026 11:30:06 GMT</pubDate>
+      <description>Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and…</description>
+      <category>The Decoder</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls</title>
+      <link>https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</link>
+      <guid isPermaLink="true">https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</guid>
+      <pubDate>Thu, 26 Nov 2026 11:21:16 GMT</pubDate>
+      <description>Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking…</description>
+      <category>The Decoder</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>美团：预计到今年年底，妙手酒店版·既白将覆盖近40万商家</title>
+      <link>https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html</link>
+      <guid isPermaLink="true">https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html</guid>
+      <pubDate>Thu, 26 Nov 2026 11:20:00 GMT</pubDate>
+      <description>11月25日，在中国饭店业高质量大会上，美团披露酒店AI经营工具的最新进展。美团预计，到2026年底，妙手酒店版·既白将覆盖近40万家酒店商家。商家可通过美团经营后台进入既白AI查看周边市场变化、分析门店经营情况，也可以使用日常语言提问，获取价格建议和经营参考，降低商家使用门槛。 据美团酒店数据，11月以来，既白AI活跃商家的线上交易额较未使用商家高7%；深度使用既白商家的订单量同比增长22%。随着AI工具融入酒店商家的日常经营…</description>
+      <category>雷峰网</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains</title>
+      <link>https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/</guid>
+      <pubDate>Thu, 26 Nov 2026 10:51:27 GMT</pubDate>
+      <description>The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.</description>
+      <category>WIRED</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Vertiv Expands 800 VDC Power Portfolio for AI Data Centres</title>
+      <link>https://analyticsindiamag.com/ai-news/vertiv-expands-800-vdc-power-portfolio-for-ai-data-centres</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/vertiv-expands-800-vdc-power-portfolio-for-ai-data-centres</guid>
+      <pubDate>Thu, 26 Nov 2026 10:24:33 GMT</pubDate>
+      <description>US-based Vertiv has expanded its 800 VDC power portfolio to support rising energy demands from AI data centres. The expansion adds systems for AI compute pods and data halls and extends the company&#39;s portfolio, which…</description>
+      <category>Analytics India Magazine</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
@@ -422,6 +395,24 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
+      <title>The next generation of bionic hands is here—and they can feel</title>
+      <link>https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/</guid>
+      <pubDate>Thu, 26 Nov 2026 09:59:00 GMT</pubDate>
+      <description>Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For…</description>
+      <category>MIT Technology Review</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>The Next Big IT Services Opportunity Could Be Operationalising AI</title>
+      <link>https://analyticsindiamag.com/ai-features/the-next-big-it-services-opportunity-could-be-operationalising-ai</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-features/the-next-big-it-services-opportunity-could-be-operationalising-ai</guid>
+      <pubDate>Thu, 26 Nov 2026 09:56:08 GMT</pubDate>
+      <description>Enterprises are becoming more cautious about AI spending, but they are not pulling back from adoption. Instead, the focus is shifting towards measurable returns, better governance, and integrating AI into existing…</description>
+      <category>Analytics India Magazine</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
       <title>ChatGPT即将到来的大更新，为何让老用户集体破防</title>
       <link>https://www.ifanr.com/1695589?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign</link>
       <guid isPermaLink="true">https://www.ifanr.com/1695589?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign</guid>
@@ -431,29 +422,38 @@
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance</title>
-      <link>https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&amp;amp;utm_source=infoq&amp;amp;utm_medium=feed&amp;amp;utm_term=AI%2C+ML+%26+Data+Engineering</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&amp;amp;utm_source=infoq&amp;amp;utm_medium=feed&amp;amp;utm_term=AI%2C+ML+%26+Data+Engineering</guid>
-      <pubDate>Thu, 26 Nov 2026 06:45:00 GMT</pubDate>
-      <description>At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs…</description>
-      <category>InfoQ AI/ML</category>
+      <title>手表和眼镜，如何成为AI智能体的「随身感官」？</title>
+      <link>https://www.leiphone.com/category/chips/1tx0UpMMROQn9vCW.html</link>
+      <guid isPermaLink="true">https://www.leiphone.com/category/chips/1tx0UpMMROQn9vCW.html</guid>
+      <pubDate>Thu, 26 Nov 2026 09:22:00 GMT</pubDate>
+      <description>去年，Humane关闭了AI Pin的消费者云服务。这款别在衣服上的AI设备一度被寄予厚望，用户只需开口，就能完成许多原本需要掏出手机才能做的事。AI Pin最终没能进入主流市场，却给后来者留下了一道产品定义题，手机已经有了成熟的计算、通信和应用生态，用户为什么还需要一件戴在身上的AI设备？ 11月25日，在深圳举行的第七届紫光展锐智能穿戴沙龙上，紫光展锐智能穿戴产品线总经理李彬重新提起了AI Pin。在他看来…</description>
+      <category>雷峰网</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>NVIDIA Halts AI Server Shipments to 4 Southeast Asian Countries: Report</title>
-      <link>https://analyticsindiamag.com/ai-news/nvidia-halts-ai-server-shipments-to-4-southeast-asian-countries-report</link>
-      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/nvidia-halts-ai-server-shipments-to-4-southeast-asian-countries-report</guid>
-      <pubDate>Thu, 26 Nov 2026 17:10:28 GMT</pubDate>
-      <description>NVIDIA has instructed its manufacturing partners to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, as reported by the Financial Times (FT). The move comes as the US tightens export controls to…</description>
+      <title>BharatGen Launches Patram 1.5, a 7B Vision-Language Model for Document Processing</title>
+      <link>https://analyticsindiamag.com/ai-news/bharatgen-launches-patram-15-a-7b-vision-language-model-for-document-processing</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/bharatgen-launches-patram-15-a-7b-vision-language-model-for-document-processing</guid>
+      <pubDate>Thu, 26 Nov 2026 07:17:59 GMT</pubDate>
+      <description>BharatGen has launched Patram 1.5, a seven-billion-parameter vision-language model (VLM) built to read and process scanned, handwritten, stamped and multilingual documents. The model is available as open weights on…</description>
       <category>Analytics India Magazine</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
     <item>
-      <title>Coforge Adds Cybersecurity Patches to AI Enterprise Suite in Wake of Vulnerabilities</title>
-      <link>https://analyticsindiamag.com/ai-news/coforge-expands-nuuron-with-ai-led-vulnerability-remediation</link>
-      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/coforge-expands-nuuron-with-ai-led-vulnerability-remediation</guid>
-      <pubDate>Thu, 26 Nov 2026 17:06:15 GMT</pubDate>
-      <description>Coforge has expanded its Nuuron enterprise AI suite with new capabilities for remediating cybersecurity vulnerabilities across infrastructure, applications, cloud environments, data platforms, and AI systems. The…</description>
+      <title>Pine Labs Adds AI Agents To Merchant App For Sales Insights, Ad Campaigns</title>
+      <link>https://analyticsindiamag.com/ai-news/pine-labs-adds-ai-agents-to-merchant-app-for-sales-insights-ad-campaigns</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/pine-labs-adds-ai-agents-to-merchant-app-for-sales-insights-ad-campaigns</guid>
+      <pubDate>Thu, 26 Nov 2026 05:39:30 GMT</pubDate>
+      <description>Bengaluru-based fintech company Pine Labs has launched two AI agents on its merchant operating app, Pine Labs One, to help small businesses analyse transaction data and manage digital advertising campaigns. The tools…</description>
+      <category>Analytics India Magazine</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>SpaceX Gets Nod to Deploy 1 Mn AI Data Centre Satellites</title>
+      <link>https://analyticsindiamag.com/ai-news/spacex-gets-us-nod-to-deploy-1-million-satellites-for-orbital-ai-data-centres</link>
+      <guid isPermaLink="true">https://analyticsindiamag.com/ai-news/spacex-gets-us-nod-to-deploy-1-million-satellites-for-orbital-ai-data-centres</guid>
+      <pubDate>Thu, 26 Nov 2026 05:34:34 GMT</pubDate>
+      <description>Elon Musk’s SpaceX has received approval to deploy up to 1 million solar-powered satellites for AI data centres in space SpaceX had sought permission earlier this year from the US Federal Communications Commission (FCC)…</description>
       <category>Analytics India Magazine</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>

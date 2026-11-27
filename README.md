@@ -1,6 +1,6 @@
 # AI 日报 · ai-daily-news
 
-自动抓取 [Product Hunt](https://www.producthunt.com/)、[TechCrunch](https://techcrunch.com/category/artificial-intelligence/)、[量子位](https://www.qbitai.com/) 等 **43 个来源**的 AI 产品与行业动态，每天北京时间 **06:00** 生成一期可直接浏览的静态日报，同时提供**中文与英文**两个版本。
+自动抓取 [Product Hunt](https://www.producthunt.com/)、[TechCrunch](https://techcrunch.com/category/artificial-intelligence/)、[量子位](https://www.qbitai.com/) 等 **11 个来源**的 AI 产品与行业动态，每天北京时间 **06:00** 生成一期可直接浏览的静态日报，同时提供**中文与英文**两个版本。
 
 - 线上地址：<https://lorryrui.github.io/ai-daily-news/>（英文版 `…/en/`）
 - 纯静态：无需数据库与后端，产物由 GitHub Actions 定时抓取并部署到 GitHub Pages
@@ -65,17 +65,17 @@ npx serve .
 
 ## 内容源
 
-共 43 个来源，分五类（`lang` 为 `zh` 的中文源在英文页面同样展示，仅界面文案切换）：
+共 11 个来源，分五类，**每个分类最多 3 家主流源**（`lang` 为 `zh` 的中文源在英文页面同样展示，仅界面文案切换）：
 
 | 分类 | 来源 |
 | --- | --- |
 | 产品 | Product Hunt |
-| 媒体 | TechCrunch、The Verge、The Information、The Decoder、VentureBeat、AI Business、MarkTechPost、InfoQ AI/ML、WIRED、MIT Technology Review、TechRadar、Techmeme、Ars Technica、Analytics India Magazine、ZDNET、MIT News AI、量子位、雷峰网、36氪、InfoQ 中文、爱范儿、IT之家、少数派 |
-| 官方 | OpenAI、Google DeepMind、Google AI、Microsoft Research、Apple Machine Learning、AWS Machine Learning、NVIDIA、NVIDIA Developer、Databricks |
-| 深度 | IEEE Spectrum AI、Simon Willison、Latent Space、One Useful Thing、Together AI、Platformer、Big Technology、Sequoia Capital、Machine Learning Mastery |
+| 媒体 | TechCrunch、The Verge、量子位 |
+| 官方 | OpenAI、Google DeepMind、Microsoft Research |
+| 深度 | Simon Willison、Latent Space、One Useful Thing |
 | 社区 | Hacker News（Algolia API） |
 
-泛科技源（如 IT之家、36氪、Hacker News、Techmeme）在 `sources.mjs` 里标记 `filter: 'ai'`，只保留标题/摘要命中 AI 关键词的条目，中英文关键词都在 `collect.mjs` 的 `AI_PATTERN` 中维护。
+泛科技源（如 Microsoft Research、Simon Willison、Hacker News）在 `sources.mjs` 里标记 `filter: 'ai'`，只保留标题/摘要命中 AI 关键词的条目，中英文关键词都在 `collect.mjs` 的 `AI_PATTERN` 中维护。
 
 ## 去重策略
 
