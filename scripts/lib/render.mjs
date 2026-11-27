@@ -159,7 +159,8 @@ function relatedLine(item, lang) {
         `<a href="${esc(entry.url)}" rel="noopener" target="_blank" title="${esc(entry.title)}">${esc(entry.sourceName)}</a>`,
     )
     .join(t.relatedSep);
-  return `<span class="related">${esc(t.issue.related(links))}</span>`;
+  // links 里的 url / title / 来源名已逐项转义，这里直接拼接，避免整段被再次转义。
+  return `<span class="related">${t.issue.related(links)}</span>`;
 }
 
 function card(item, issueKey, lang) {
