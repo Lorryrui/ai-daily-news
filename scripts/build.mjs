@@ -13,6 +13,7 @@ import { collectAll } from './lib/collect.mjs';
 import { LANG_PREFIX, LANGS, langPaths, text } from './lib/i18n.mjs';
 import { renderArchive, renderHome, renderIssue } from './lib/render.mjs';
 import { SITE_URL } from './lib/site.mjs';
+import { SOURCES, SOURCE_MAP } from './lib/sources.mjs';
 import {
   chinaDateKey,
   chinaTime,
@@ -31,8 +32,12 @@ const ASSETS_DIR = path.join(ROOT, 'assets');
 
 const OFFLINE = process.argv.includes('--offline') || process.env.OFFLINE === '1';
 const MAX_FEED_ITEMS = 50;
-/** 内容太少的期号（多为首次抓取时旧 feed 只剩几条）不发布，避免出现空荡的页面。 */
-const MIN_ISSUE_ITEMS = Number(process.env.MIN_ISSUE_ITEMS ?? 6);
+/**
+ * 一期最少条目数。默认为 1，即只要期号有内容就发布：
+ * 抓取完全失败时不会产生新的期号，因此不需要靠门槛来挡空页面，
+ * 而源清单调整后历史期号条目会变少，设更高门槛反而会让归档丢期。
+ */
+const MIN_ISSUE_ITEMS = Number(process.env.MIN_ISSUE_ITEMS ?? 1);
 
 /** 每种语言在站点里的输出目录。 */
 const OUT = {
@@ -50,6 +55,23 @@ async function writeIfChanged(file, content) {
   }
   await writeFile(file, content, 'utf8');
   return true;
+}
+
+/**
+ * 只保留当前源清单里的条目。源被移除后，历史期号里属于它的条目不再展示，
+ * 避免归档页混入已下线的来源。被裁掉的条目仍留在 git 历史里，源加回来可以找回。
+ */
+function pruneToCurrentSources(stored) {
+  let removed = 0;
+  for (const [date, entry] of stored) {
+    const kept = entry.items.filter((item) => SOURCE_MAP.has(item.source));
+    if (kept.length === entry.items.length) continue;
+    removed += entry.items.length - kept.length;
+    stored.set(date, { ...entry, items: kept });
+  }
+  if (removed > 0) {
+    console.log(`按当前 ${SOURCES.length} 个来源过滤历史条目，跳过 ${removed} 条`);
+  }
 }
 
 async function loadStoredIssues() {
@@ -270,6 +292,9 @@ async function main() {
     }
     console.log(`更新数据文件 ${touched.size} 个`);
   }
+
+  // 只在渲染前过滤，不回写 data/：源清单再调整时可逆，抓取到的原始记录不丢。
+  pruneToCurrentSources(stored);
 
   const label = currentIssueLabel();
   const issues = [...stored.values()]

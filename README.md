@@ -56,7 +56,7 @@ npx serve .
 | 变量 | 说明 | 默认值 |
 | --- | --- | --- |
 | `SITE_URL` | 站点绝对地址，用于 canonical、hreflang 与 RSS 链接 | `https://lorryrui.github.io/ai-daily-news/` |
-| `MIN_ISSUE_ITEMS` | 一期最少条目数，低于此值不发布（避免首次抓取出现空期） | `6` |
+| `MIN_ISSUE_ITEMS` | 一期最少条目数，低于此值不发布 | `1` |
 | `OFFLINE` | 设为 `1` 等同于 `--offline` | 未设置 |
 
 ## 期号规则
@@ -76,6 +76,8 @@ npx serve .
 | 社区 | Hacker News（Algolia API） |
 
 泛科技源（如 Microsoft Research、Simon Willison、Hacker News）在 `sources.mjs` 里标记 `filter: 'ai'`，只保留标题/摘要命中 AI 关键词的条目，中英文关键词都在 `collect.mjs` 的 `AI_PATTERN` 中维护。
+
+从源清单移除某个源后，**历史期号里属于它的条目也会一并停止展示**（构建时按当前 `SOURCES` 过滤，见 `build.mjs` 的 `pruneToCurrentSources`），所以归档页显示的来源始终与当前清单一致。原始抓取记录不会被删除：`data/issues/*.json` 保留全部条目，源加回来就能重新出现在页面上。
 
 ## 去重策略
 
