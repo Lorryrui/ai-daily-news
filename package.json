@@ -1,0 +1,23 @@
+{
+  "name": "ai-daily-news",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "每天北京时间 06:00 自动生成的 AI 产品与行业动态日报（静态站点）",
+  "homepage": "https://lorryrui.github.io/ai-daily-news/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorryrui/ai-daily-news.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:offline": "node scripts/build.mjs --offline",
+    "clean": "node scripts/clean.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.7"
+  }
+}
