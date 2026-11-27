@@ -52,15 +52,20 @@ function pickLink(node) {
   return fallback;
 }
 
+/** 图片统一走 HTTPS，避免部署到 Pages 后触发混合内容警告。 */
+function secureUrl(url) {
+  return typeof url === 'string' && url.startsWith('http://') ? `https://${url.slice(7)}` : url;
+}
+
 function pickImage(entry, html) {
   const direct = [
     entry['media:thumbnail']?.['@_url'],
     entry['media:content']?.['@_url'],
     asArray(entry.enclosure).find((item) => item?.['@_url'])?.['@_url'],
   ].find((url) => typeof url === 'string' && url.startsWith('http'));
-  if (direct) return direct;
+  if (direct) return secureUrl(direct);
   const match = /<img[^>]+src=["']([^"']+)["']/i.exec(html ?? '');
-  if (match && match[1].startsWith('http')) return match[1];
+  if (match && match[1].startsWith('http')) return secureUrl(match[1]);
   return '';
 }
 

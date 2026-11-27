@@ -139,6 +139,9 @@ ${body}
 `;
 }
 
+/** 历史数据里的图片可能是 http，部署到 HTTPS 站点会触发混合内容，这里统一升级。 */
+const secureImage = (url) => (url.startsWith('http://') ? `https://${url.slice(7)}` : url);
+
 function timeLabel(item, issueKey) {
   const date = new Date(item.publishedAt);
   const key = chinaDateKey(date);
@@ -162,7 +165,7 @@ function relatedLine(item, lang) {
 function card(item, issueKey, lang) {
   const t = text(lang);
   const image = item.image
-    ? `<div class="card__media"><img src="${esc(item.image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`
+    ? `<div class="card__media"><img src="${esc(secureImage(item.image))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`
     : '';
   const tags = (item.tags ?? [])
     .slice(0, 2)
