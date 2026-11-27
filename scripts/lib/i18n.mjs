@@ -162,7 +162,7 @@ const EN = {
       `${total} AI product and industry updates from ${sources} sources${merged ? ` (${merged} duplicate report${merged > 1 ? 's' : ''} merged)` : ''}.`,
     stats: ['stories', 'new products', 'industry & official', 'published (CST)'],
     highlights: "Today's highlights",
-    highlightMeta: (total) => `Also covered by ${total} outlets`,
+    highlightMeta: (total) => `Also covered by ${total} outlet${total === 1 ? '' : 's'}`,
     prev: 'Previous',
     next: 'Next',
     pagerLabel: 'Issue pagination',
