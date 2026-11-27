@@ -57,6 +57,7 @@ function layout({
   current,
   body,
   footerNote = '',
+  footerStats = '',
   extraScript = '',
 }) {
   const t = text(lang);
@@ -123,7 +124,6 @@ ${body}
 </main>
 <footer class="site-footer">
   <div class="shell site-footer__inner">
-    <p style="margin:0">${esc(t.siteName)} · ${esc(t.footerNote)}${footerNote ? ` · ${esc(footerNote)}` : ''}</p>
     <p style="margin:0">
       <a href="${local(paths.archive)}">${esc(t.footerArchive)}</a>
       <span class="sep">/</span>
@@ -131,6 +131,7 @@ ${body}
       <span class="sep">/</span>
       <a href="https://github.com/Lorryrui/ai-daily-news" rel="noopener">${esc(t.footerSource)}</a>
     </p>
+    <p class="site-footer__meta">${esc(t.siteName)}${footerStats ? ` · ${esc(footerStats)}` : ''} · ${esc(t.footerNote)}${footerNote ? ` · ${esc(footerNote)}` : ''}</p>
   </div>
 </footer>
 <script src="${assetBase}app.js" defer></script>
@@ -293,22 +294,43 @@ function renderIssueBody({ issue, issues, prev, next, lang, page }) {
   const paths = langPaths();
   const base = baseOf(page);
 
-  const sections = KIND_ORDER.map((kind) => {
+  const kinds = KIND_ORDER.map((kind) => {
     const items = issue.items.filter((item) => item.kind === kind);
     const meta = t.sections[kind];
-    if (!items.length || !meta) return '';
-    return `<section class="section" id="${kind}">
-  <div class="section__head">
+    return items.length && meta ? { kind, items, meta } : null;
+  }).filter(Boolean);
+
+  const hasTabs = kinds.length > 1;
+
+  // 分类较多时纵向下滚太长，改成左右切换的 tab，一个屏幕只看一个分类。
+  const tabs = hasTabs
+    ? `<div class="kind-tabs" role="tablist" aria-label="${esc(t.issue.kindTabsLabel)}">
+  ${kinds
+    .map(
+      ({ kind, items, meta }, index) => `<button class="kind-tab" type="button" role="tab" id="tab-${kind}" aria-controls="${kind}" aria-selected="${index === 0}" tabindex="${index === 0 ? 0 : -1}" data-kind-tab="${kind}">${esc(meta.title)}<span class="count">${items.length}</span></button>`,
+    )
+    .join('\n  ')}
+</div>
+<noscript><style>.kind-panel[hidden]{display:block}</style></noscript>`
+    : '';
+
+  const sections = kinds
+    .map(({ kind, items, meta }, index) => {
+      const head = hasTabs
+        ? `<h2 class="sr-only">${esc(meta.title)}</h2>
+  <p class="kind-panel__hint">${esc(meta.hint)}</p>`
+        : `<div class="section__head">
     <h2>${esc(meta.title)}</h2>
     <span class="count">${items.length}</span>
     <span class="section__hint">${esc(meta.hint)}</span>
-  </div>
+  </div>`;
+      return `<section class="section kind-panel" id="${kind}" role="${hasTabs ? 'tabpanel' : 'region'}"${hasTabs ? ` aria-labelledby="tab-${kind}" tabindex="0"` : ''}${hasTabs && index > 0 ? ' hidden' : ''}>
+  ${head}
   <div class="cards">
     ${items.map((item) => card(item, key, lang)).join('\n    ')}
   </div>
 </section>`;
-  })
-    .filter(Boolean)
+    })
     .join('\n');
 
   const highlights = pickHighlights(issue);
@@ -341,24 +363,26 @@ function renderIssueBody({ issue, issues, prev, next, lang, page }) {
   }
 </nav>`;
 
-  const stats = t.issue.stats;
+  const footerStats = t.issue.statsLine(
+    issue.total,
+    issue.stats.product,
+    issue.stats.news + issue.stats.official,
+    chinaTime(new Date(issue.generatedAt)),
+  );
+
   return {
     highlights,
+    footerStats,
     body: `<div class="hero shell">
   <span class="eyebrow">${esc(t.issue.eyebrow(weekdayOf(key, lang), issue.sequence))}</span>
   <h1>${t.issue.title(esc(longDate(key, lang)))}</h1>
   <p class="hero__lede">${esc(t.issue.lede(issue.total, issue.sourceTotal, issue.relatedTotal))}</p>
-  <div class="hero__stats">
-    <div class="stat"><strong>${issue.total}</strong><span>${esc(stats[0])}</span></div>
-    <div class="stat"><strong>${issue.stats.product}</strong><span>${esc(stats[1])}</span></div>
-    <div class="stat"><strong>${issue.stats.news + issue.stats.official}</strong><span>${esc(stats[2])}</span></div>
-    <div class="stat"><strong>${esc(chinaTime(new Date(issue.generatedAt)))}</strong><span>${esc(stats[3])}</span></div>
-  </div>
 </div>
 <div class="shell">
   <div class="layout">
     <div class="main-column">
       ${highlightBlock}
+      ${tabs}
       ${sections || `<p class="search-hint">${esc(t.issue.empty)}</p>`}
       ${pager}
     </div>
@@ -375,7 +399,7 @@ function renderIssueBody({ issue, issues, prev, next, lang, page }) {
 export function renderIssue({ issue, issues, prev, next, lang = 'zh' }) {
   const t = text(lang);
   const key = issue.date;
-  const { highlights, body } = renderIssueBody({ issue, issues, prev, next, lang, page: 'issue' });
+  const { highlights, body, footerStats } = renderIssueBody({ issue, issues, prev, next, lang, page: 'issue' });
   const links = langLinks(lang, 'issue', key);
 
   return layout({
@@ -390,7 +414,7 @@ export function renderIssue({ issue, issues, prev, next, lang = 'zh' }) {
     canonical: links[HTML_LANG[lang]],
     current: 'latest',
     body,
-    footerNote: t.issue.footerNote(chinaTime(new Date(issue.generatedAt))),
+    footerStats,
   });
 }
 
@@ -466,7 +490,7 @@ export function renderHome({ latest, issues, prev = null, next = null, lang = 'z
 
   const issue = latest.issue;
   const key = issue.date;
-  const { highlights, body } = renderIssueBody({ issue, issues, prev, next, lang, page: 'home' });
+  const { highlights, body, footerStats } = renderIssueBody({ issue, issues, prev, next, lang, page: 'home' });
   const links = langLinks(lang, 'home');
 
   return layout({
@@ -480,7 +504,7 @@ export function renderHome({ latest, issues, prev = null, next = null, lang = 'z
     canonical: links[HTML_LANG[lang]],
     current: 'latest',
     body,
-    footerNote: t.issue.footerNote(chinaTime(new Date(issue.generatedAt))),
+    footerStats,
     extraScript: lang === 'zh' ? LANG_BOOTSTRAP : '',
   });
 }

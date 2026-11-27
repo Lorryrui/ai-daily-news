@@ -53,12 +53,6 @@
   <span class="eyebrow">星期三 · 第 9 期</span>
   <h1><span class="date-part">2026年11月25日</span> AI 日报</h1>
   <p class="hero__lede">从 8 个来源抓取，聚合 35 条 AI 产品与行业动态。</p>
-  <div class="hero__stats">
-    <div class="stat"><strong>35</strong><span>条动态</span></div>
-    <div class="stat"><strong>6</strong><span>个新产品</span></div>
-    <div class="stat"><strong>17</strong><span>条行业与官方消息</span></div>
-    <div class="stat"><strong>13:34</strong><span>生成于北京时间</span></div>
-  </div>
 </div>
 <div class="shell">
   <div class="layout">
@@ -88,12 +82,17 @@
     </li>
   </ol>
 </section>
-      <section class="section" id="product">
-  <div class="section__head">
-    <h2>今日新产品</h2>
-    <span class="count">6</span>
-    <span class="section__hint">来自 Product Hunt 等产品社区的 AI 新应用</span>
-  </div>
+      <div class="kind-tabs" role="tablist" aria-label="内容分类">
+  <button class="kind-tab" type="button" role="tab" id="tab-product" aria-controls="product" aria-selected="true" tabindex="0" data-kind-tab="product">今日新产品<span class="count">6</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-news" aria-controls="news" aria-selected="false" tabindex="-1" data-kind-tab="news">行业动态<span class="count">11</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-official" aria-controls="official" aria-selected="false" tabindex="-1" data-kind-tab="official">官方更新<span class="count">6</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-insight" aria-controls="insight" aria-selected="false" tabindex="-1" data-kind-tab="insight">深度分析<span class="count">5</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-community" aria-controls="community" aria-selected="false" tabindex="-1" data-kind-tab="community">社区热议<span class="count">7</span></button>
+</div>
+<noscript><style>.kind-panel[hidden]{display:block}</style></noscript>
+      <section class="section kind-panel" id="product" role="tabpanel" aria-labelledby="tab-product" tabindex="0">
+  <h2 class="sr-only">今日新产品</h2>
+  <p class="kind-panel__hint">来自 Product Hunt 等产品社区的 AI 新应用</p>
   <div class="cards">
     <article class="card">
   <div class="card__body">
@@ -199,12 +198,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="news">
-  <div class="section__head">
-    <h2>行业动态</h2>
-    <span class="count">11</span>
-    <span class="section__hint">科技媒体的 AI 报道精选</span>
-  </div>
+<section class="section kind-panel" id="news" role="tabpanel" aria-labelledby="tab-news" tabindex="0" hidden>
+  <h2 class="sr-only">行业动态</h2>
+  <p class="kind-panel__hint">科技媒体的 AI 报道精选</p>
   <div class="cards">
     <article class="card">
   <div class="card__body">
@@ -395,12 +391,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="official">
-  <div class="section__head">
-    <h2>官方更新</h2>
-    <span class="count">6</span>
-    <span class="section__hint">头部 AI 实验室与公司的一手消息</span>
-  </div>
+<section class="section kind-panel" id="official" role="tabpanel" aria-labelledby="tab-official" tabindex="0" hidden>
+  <h2 class="sr-only">官方更新</h2>
+  <p class="kind-panel__hint">头部 AI 实验室与公司的一手消息</p>
   <div class="cards">
     <article class="card card--with-image">
   <div class="card__body">
@@ -506,12 +499,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="insight">
-  <div class="section__head">
-    <h2>深度分析</h2>
-    <span class="count">5</span>
-    <span class="section__hint">长文解读、行业观察与研究报告</span>
-  </div>
+<section class="section kind-panel" id="insight" role="tabpanel" aria-labelledby="tab-insight" tabindex="0" hidden>
+  <h2 class="sr-only">深度分析</h2>
+  <p class="kind-panel__hint">长文解读、行业观察与研究报告</p>
   <div class="cards">
     <article class="card card--with-image">
   <div class="card__body">
@@ -600,12 +590,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="community">
-  <div class="section__head">
-    <h2>社区热议</h2>
-    <span class="count">7</span>
-    <span class="section__hint">Hacker News 上被讨论最多的 AI 话题</span>
-  </div>
+<section class="section kind-panel" id="community" role="tabpanel" aria-labelledby="tab-community" tabindex="0" hidden>
+  <h2 class="sr-only">社区热议</h2>
+  <p class="kind-panel__hint">Hacker News 上被讨论最多的 AI 话题</p>
   <div class="cards">
     <article class="card">
   <div class="card__body">
@@ -826,7 +813,6 @@
 </main>
 <footer class="site-footer">
   <div class="shell site-footer__inner">
-    <p style="margin:0">AI 日报 · 内容来自各源站，版权归原作者所有 · 本页于 13:34 生成</p>
     <p style="margin:0">
       <a href="../archive.html">全部归档</a>
       <span class="sep">/</span>
@@ -834,6 +820,7 @@
       <span class="sep">/</span>
       <a href="https://github.com/Lorryrui/ai-daily-news" rel="noopener">源码</a>
     </p>
+    <p class="site-footer__meta">AI 日报 · 共 35 条动态 · 6 个新产品 · 17 条行业与官方消息 · 生成于北京时间 13:34 · 内容来自各源站，版权归原作者所有</p>
   </div>
 </footer>
 <script src="../app.js" defer></script>

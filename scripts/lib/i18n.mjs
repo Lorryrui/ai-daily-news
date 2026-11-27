@@ -76,7 +76,9 @@ const ZH = {
     docTitle: (date) => `${date} AI 日报`,
     lede: (total, sources, merged) =>
       `从 ${sources} 个来源抓取，聚合 ${total} 条 AI 产品与行业动态${merged ? `（合并 ${merged} 条重复报道）` : ''}。`,
-    stats: ['条动态', '个新产品', '条行业与官方消息', '生成于北京时间'],
+    statsLine: (total, products, industryOfficial, time) =>
+      `共 ${total} 条动态 · ${products} 个新产品 · ${industryOfficial} 条行业与官方消息 · 生成于北京时间 ${time}`,
+    kindTabsLabel: '内容分类',
     highlights: '今日要点',
     highlightMeta: (total) => `另有 ${total} 家媒体报道`,
     prev: '上一期',
@@ -160,7 +162,9 @@ const EN = {
     docTitle: (date) => `${date} · AI Daily Brief`,
     lede: (total, sources, merged) =>
       `${total} AI product and industry updates from ${sources} sources${merged ? ` (${merged} duplicate report${merged > 1 ? 's' : ''} merged)` : ''}.`,
-    stats: ['stories', 'new products', 'industry & official', 'published (CST)'],
+    statsLine: (total, products, industryOfficial, time) =>
+      `${total} stories · ${products} new products · ${industryOfficial} industry & official · generated ${time} (CST)`,
+    kindTabsLabel: 'Content sections',
     highlights: "Today's highlights",
     highlightMeta: (total) => `Also covered by ${total} outlet${total === 1 ? '' : 's'}`,
     prev: 'Previous',

@@ -53,12 +53,6 @@
   <span class="eyebrow">Thursday · Issue 10</span>
   <h1><span class="date-part">November 26, 2026</span> AI Daily Brief</h1>
   <p class="hero__lede">42 AI product and industry updates from 6 sources (1 duplicate report merged).</p>
-  <div class="hero__stats">
-    <div class="stat"><strong>42</strong><span>stories</span></div>
-    <div class="stat"><strong>19</strong><span>new products</span></div>
-    <div class="stat"><strong>14</strong><span>industry &amp; official</span></div>
-    <div class="stat"><strong>13:34</strong><span>published (CST)</span></div>
-  </div>
 </div>
 <div class="shell">
   <div class="layout">
@@ -88,12 +82,16 @@
     </li>
   </ol>
 </section>
-      <section class="section" id="product">
-  <div class="section__head">
-    <h2>New products</h2>
-    <span class="count">19</span>
-    <span class="section__hint">Fresh AI apps from Product Hunt and other launch platforms</span>
-  </div>
+      <div class="kind-tabs" role="tablist" aria-label="Content sections">
+  <button class="kind-tab" type="button" role="tab" id="tab-product" aria-controls="product" aria-selected="true" tabindex="0" data-kind-tab="product">New products<span class="count">19</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-news" aria-controls="news" aria-selected="false" tabindex="-1" data-kind-tab="news">Industry news<span class="count">14</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-insight" aria-controls="insight" aria-selected="false" tabindex="-1" data-kind-tab="insight">Deep dives<span class="count">2</span></button>
+  <button class="kind-tab" type="button" role="tab" id="tab-community" aria-controls="community" aria-selected="false" tabindex="-1" data-kind-tab="community">Community<span class="count">7</span></button>
+</div>
+<noscript><style>.kind-panel[hidden]{display:block}</style></noscript>
+      <section class="section kind-panel" id="product" role="tabpanel" aria-labelledby="tab-product" tabindex="0">
+  <h2 class="sr-only">New products</h2>
+  <p class="kind-panel__hint">Fresh AI apps from Product Hunt and other launch platforms</p>
   <div class="cards">
     <article class="card">
   <div class="card__body">
@@ -420,12 +418,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="news">
-  <div class="section__head">
-    <h2>Industry news</h2>
-    <span class="count">14</span>
-    <span class="section__hint">Selected AI coverage from tech media</span>
-  </div>
+<section class="section kind-panel" id="news" role="tabpanel" aria-labelledby="tab-news" tabindex="0" hidden>
+  <h2 class="sr-only">Industry news</h2>
+  <p class="kind-panel__hint">Selected AI coverage from tech media</p>
   <div class="cards">
     <article class="card card--with-image">
   <div class="card__body">
@@ -667,12 +662,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="insight">
-  <div class="section__head">
-    <h2>Deep dives</h2>
-    <span class="count">2</span>
-    <span class="section__hint">Long reads, analysis and research notes</span>
-  </div>
+<section class="section kind-panel" id="insight" role="tabpanel" aria-labelledby="tab-insight" tabindex="0" hidden>
+  <h2 class="sr-only">Deep dives</h2>
+  <p class="kind-panel__hint">Long reads, analysis and research notes</p>
   <div class="cards">
     <article class="card">
   <div class="card__body">
@@ -710,12 +702,9 @@
 </article>
   </div>
 </section>
-<section class="section" id="community">
-  <div class="section__head">
-    <h2>Community</h2>
-    <span class="count">7</span>
-    <span class="section__hint">The most discussed AI stories on Hacker News</span>
-  </div>
+<section class="section kind-panel" id="community" role="tabpanel" aria-labelledby="tab-community" tabindex="0" hidden>
+  <h2 class="sr-only">Community</h2>
+  <p class="kind-panel__hint">The most discussed AI stories on Hacker News</p>
   <div class="cards">
     <article class="card">
   <div class="card__body">
@@ -928,7 +917,6 @@
 </main>
 <footer class="site-footer">
   <div class="shell site-footer__inner">
-    <p style="margin:0">AI Daily Brief · Content belongs to the original publishers · Generated at 13:34 (Beijing time)</p>
     <p style="margin:0">
       <a href="../archive.html">All issues</a>
       <span class="sep">/</span>
@@ -936,6 +924,7 @@
       <span class="sep">/</span>
       <a href="https://github.com/Lorryrui/ai-daily-news" rel="noopener">Source</a>
     </p>
+    <p class="site-footer__meta">AI Daily Brief · 42 stories · 19 new products · 14 industry &amp; official · generated 13:34 (CST) · Content belongs to the original publishers</p>
   </div>
 </footer>
 <script src="../../app.js" defer></script>

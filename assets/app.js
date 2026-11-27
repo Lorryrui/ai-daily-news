@@ -250,7 +250,74 @@ var UI = I18N[LANG];
   });
 })();
 
-/* 归档页：按关键词即时过滤日期卡片。 */
+/* 分类切换：一个屏幕只展示一个分类，支持键盘方向键。 */
+(function () {
+  var list = document.querySelector('.kind-tabs');
+  if (!list) return;
+  var tabs = Array.prototype.slice.call(list.querySelectorAll('[data-kind-tab]'));
+  if (tabs.length < 2) return;
+
+  function panelsOf(tab) {
+    return document.getElementById(tab.getAttribute('aria-controls'));
+  }
+
+  function activate(tab, focus) {
+    tabs.forEach(function (item) {
+      var active = item === tab;
+      var panel = panelsOf(item);
+      item.setAttribute('aria-selected', active ? 'true' : 'false');
+      item.setAttribute('tabindex', active ? '0' : '-1');
+      if (panel) panel.hidden = !active;
+    });
+    if (focus) tab.focus();
+    try {
+      sessionStorage.setItem('ainews-kind', tab.getAttribute('data-kind-tab'));
+    } catch (error) {
+      /* 忽略写入失败 */
+    }
+  }
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      activate(tab, false);
+    });
+  });
+
+  list.addEventListener('keydown', function (event) {
+    var index = tabs.indexOf(document.activeElement);
+    if (index === -1) return;
+    var next = null;
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % tabs.length;
+    else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + tabs.length) % tabs.length;
+    else if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = tabs.length - 1;
+    if (next === null) return;
+    event.preventDefault();
+    activate(tabs[next], true);
+  });
+
+  // 带 #product 这类锚点进入时，直接切到对应分类。
+  var hash = window.location.hash.replace('#', '');
+  var target = hash
+    ? tabs.find(function (tab) {
+        return tab.getAttribute('data-kind-tab') === hash;
+      })
+    : null;
+  if (!target) {
+    try {
+      var saved = sessionStorage.getItem('ainews-kind');
+      target = saved
+        ? tabs.find(function (tab) {
+            return tab.getAttribute('data-kind-tab') === saved;
+          })
+        : null;
+    } catch (error) {
+      /* 忽略读取失败 */
+    }
+  }
+  if (target) activate(target, false);
+})();
+
 (function () {
   var input = document.querySelector('[data-archive-filter]');
   if (!input) return;
