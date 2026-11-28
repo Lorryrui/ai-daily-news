@@ -5,14 +5,338 @@
     <link>https://lorryrui.github.io/ai-daily-news/index.html</link>
     <description>自动抓取 Product Hunt、TechCrunch 等来源的 AI 动态，每天北京时间 06:00 更新的中文日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 04:46:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:48:07 GMT</lastBuildDate>
     <atom:link href="https://lorryrui.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Depost AI</title>
+      <link>https://www.producthunt.com/products/depost-ai</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/depost-ai</guid>
+      <pubDate>Fri, 27 Nov 2026 03:17:55 GMT</pubDate>
+      <description>The edIn AI agent that learns what works for your brand</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Woomool</title>
+      <link>https://www.producthunt.com/products/woomool</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/woomool</guid>
+      <pubDate>Fri, 27 Nov 2026 05:09:46 GMT</pubDate>
+      <description>AI Canvas where thinking becomes tangible</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Android’s DIY widgets are a bit of vibe-coding fun</title>
+      <link>https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini</link>
+      <guid isPermaLink="true">https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini</guid>
+      <pubDate>Fri, 27 Nov 2026 14:00:00 GMT</pubDate>
+      <description>Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there&#39;s one thing I want AI to do: tell me if I&#39;m about to miss the bus. What I need is a widget. It needs to tell me…</description>
+      <category>The Verge</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了</title>
+      <link>https://www.qbitai.com/2026/11/513352.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513352.html</guid>
+      <pubDate>Fri, 27 Nov 2026 14:07:33 GMT</pubDate>
+      <description>一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>全国首批首家！商汤大装置获Token工厂智算能力最高评级</title>
+      <link>https://www.qbitai.com/2026/11/513346.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513346.html</guid>
+      <pubDate>Fri, 27 Nov 2026 11:18:24 GMT</pubDate>
+      <description>商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>韦东奕再获大奖！攻克近140年数学难题，获两位院士共同提名</title>
+      <link>https://www.qbitai.com/2026/11/513320.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513320.html</guid>
+      <pubDate>Fri, 27 Nov 2026 07:39:18 GMT</pubDate>
+      <description>淡泊名利，实至名归🎉</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>DeepSeek APP突然更新账单，网友：要收费了？</title>
+      <link>https://www.qbitai.com/2026/11/513305.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513305.html</guid>
+      <pubDate>Fri, 27 Nov 2026 07:29:10 GMT</pubDate>
+      <description>网页App双端亮出聊天账单</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑</title>
+      <link>https://www.qbitai.com/2026/11/513227.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513227.html</guid>
+      <pubDate>Fri, 27 Nov 2026 07:01:20 GMT</pubDate>
+      <description>地图能随时修，记忆能跨任务用</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间</title>
+      <link>https://www.qbitai.com/2026/11/513194.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513194.html</guid>
+      <pubDate>Fri, 27 Nov 2026 04:05:56 GMT</pubDate>
+      <description>企业需要有用的 AI</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准</title>
+      <link>https://www.qbitai.com/2026/11/513211.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513211.html</guid>
+      <pubDate>Fri, 27 Nov 2026 04:05:18 GMT</pubDate>
+      <description>11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩</title>
+      <link>https://www.qbitai.com/2026/11/513163.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513163.html</guid>
+      <pubDate>Fri, 27 Nov 2026 03:53:49 GMT</pubDate>
+      <description>Quickwit查询总耗时降31%，最高降87%</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻</title>
+      <link>https://www.qbitai.com/2026/11/513155.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513155.html</guid>
+      <pubDate>Fri, 27 Nov 2026 03:45:19 GMT</pubDate>
+      <description>3D生成的竞争重点正在从“能看”转向“能用”</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>第三批嘉宾来袭！速戳报名MEET2027，驭见AI新共识！</title>
+      <link>https://www.qbitai.com/2026/11/513091.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513091.html</guid>
+      <pubDate>Fri, 27 Nov 2026 02:56:03 GMT</pubDate>
+      <description>倒计时两周，报名从速！</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>乾崑共创者计划发布：加入乾崑生态，共创出行未来！</title>
+      <link>https://www.qbitai.com/2026/11/513087.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513087.html</guid>
+      <pubDate>Fri, 27 Nov 2026 02:19:12 GMT</pubDate>
+      <description>11月26日，“乾崑生态 共赴热爱”华为乾崑生态大会在广州南沙体育馆举行。</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”</title>
+      <link>https://www.qbitai.com/2026/11/513075.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513075.html</guid>
+      <pubDate>Fri, 27 Nov 2026 02:03:10 GMT</pubDate>
+      <description>担心课题被AI抢先，该怎么办？</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩</title>
+      <link>https://www.qbitai.com/2026/11/513053.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513053.html</guid>
+      <pubDate>Fri, 27 Nov 2026 01:16:10 GMT</pubDate>
+      <description>Quickwit查询总耗时降31%，最高降87%</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>How Clay Builds GTM Agents — Jeff Barg, Head of AI</title>
+      <link>https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/</link>
+      <guid isPermaLink="true">https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/</guid>
+      <pubDate>Thu, 26 Nov 2026 23:02:48 GMT</pubDate>
+      <description>Open video on YouTube ↗ Clay wants you to get about the same results whether you use its own agent or point Claude Code at Clay. Usage is already split close to 50/50 between Clay’s agent and outside harnesses. In this…</description>
+      <category>Latent Space</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>具身公司抱团回应：通用大模型跨维打击？没那么简单</title>
+      <link>https://www.qbitai.com/2026/11/513125.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513125.html</guid>
+      <pubDate>Fri, 27 Nov 2026 03:33:11 GMT</pubDate>
+      <description>具身公司抱团回应：通用大模型跨维打击？没那么简单</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>百亿具身独角兽破壁，玩家集体涌向它的牌桌</title>
+      <link>https://www.qbitai.com/2026/11/513101.html</link>
+      <guid isPermaLink="true">https://www.qbitai.com/2026/11/513101.html</guid>
+      <pubDate>Fri, 27 Nov 2026 03:23:25 GMT</pubDate>
+      <description>百亿具身独角兽破壁，玩家集体涌向它的牌桌</description>
+      <category>量子位</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>SessionGraph: Visualize all your coding agent sessions in one interactive graph</title>
+      <link>https://sessiongraph.ai/</link>
+      <guid isPermaLink="true">https://sessiongraph.ai/</guid>
+      <pubDate>Fri, 27 Nov 2026 21:07:34 GMT</pubDate>
+      <description>Hacker News 上获得 21 点支持、9 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Banks look to dump AI debt</title>
+      <link>https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt</link>
+      <guid isPermaLink="true">https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt</guid>
+      <pubDate>Fri, 27 Nov 2026 20:56:17 GMT</pubDate>
+      <description>Hacker News 上获得 19 点支持、3 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Prospero: Bloat-free, native AI coding harness with ImGui</title>
+      <link>https://github.com/skeeto/prospero</link>
+      <guid isPermaLink="true">https://github.com/skeeto/prospero</guid>
+      <pubDate>Fri, 27 Nov 2026 20:23:14 GMT</pubDate>
+      <description>Hacker News 上获得 29 点支持、5 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Dungeons and Dragons maker will pass AI settlement money to authors</title>
+      <link>https://www.seattletimes.com/business/dungeons-dragons-maker-will-pass-ai-settlement-money-to-authors/</link>
+      <guid isPermaLink="true">https://www.seattletimes.com/business/dungeons-dragons-maker-will-pass-ai-settlement-money-to-authors/</guid>
+      <pubDate>Fri, 27 Nov 2026 17:05:45 GMT</pubDate>
+      <description>Hacker News 上获得 20 点支持、4 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Stanford Physicist Uses AI to Tackle Quantum Gravity Problem</title>
+      <link>https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/</link>
+      <guid isPermaLink="true">https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/</guid>
+      <pubDate>Fri, 27 Nov 2026 14:55:57 GMT</pubDate>
+      <description>Hacker News 上获得 23 点支持、10 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Pizza history: AI agent&#39;s cardless purchase is a first for UK</title>
+      <link>https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer</link>
+      <guid isPermaLink="true">https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer</guid>
+      <pubDate>Fri, 27 Nov 2026 11:41:11 GMT</pubDate>
+      <description>Hacker News 上获得 20 点支持、41 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>AI on brink of making online security useless, mathematicians fear</title>
+      <link>https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8</link>
+      <guid isPermaLink="true">https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8</guid>
+      <pubDate>Fri, 27 Nov 2026 11:09:04 GMT</pubDate>
+      <description>Hacker News 上获得 115 点支持、150 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Group chat where your AI talks behind your back</title>
+      <link>https://construct22.com/</link>
+      <guid isPermaLink="true">https://construct22.com/</guid>
+      <pubDate>Fri, 27 Nov 2026 06:44:34 GMT</pubDate>
+      <description>Hacker News 上获得 682 点支持、282 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Linus Torvalds: &quot;Tell Your AI Companion to Get Its Act Together&quot;</title>
+      <link>https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big</link>
+      <guid isPermaLink="true">https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big</guid>
+      <pubDate>Fri, 27 Nov 2026 02:46:19 GMT</pubDate>
+      <description>Hacker News 上获得 18 点支持、0 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>New AI research suggests AI bubble bursting and to expect major market collapse</title>
+      <link>https://www.london.edu/think/ai-bubble-about-to-burst</link>
+      <guid isPermaLink="true">https://www.london.edu/think/ai-bubble-about-to-burst</guid>
+      <pubDate>Fri, 27 Nov 2026 02:44:12 GMT</pubDate>
+      <description>Hacker News 上获得 37 点支持、24 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>AI agents now control part of DeepMind&#39;s compute for Gemini experiments</title>
+      <link>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</link>
+      <guid isPermaLink="true">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:03:18 GMT</pubDate>
+      <description>Hacker News 上获得 56 点支持、28 条讨论。</description>
+      <category>Hacker News</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-28.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Ploid</title>
+      <link>https://www.producthunt.com/products/ploid</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/ploid</guid>
+      <pubDate>Thu, 26 Nov 2026 21:06:26 GMT</pubDate>
+      <description>People search for AI agents, across 2B+ profiles</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Form Action Store</title>
+      <link>https://www.producthunt.com/products/form-action-store</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/form-action-store</guid>
+      <pubDate>Thu, 26 Nov 2026 20:08:11 GMT</pubDate>
+      <description>Discover, create and grow with powerful digital tools.</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Onset</title>
+      <link>https://www.producthunt.com/products/onset</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/onset</guid>
+      <pubDate>Thu, 26 Nov 2026 19:18:34 GMT</pubDate>
+      <description>AI reviews, titles and thumbnails for YouTube creators</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Contral</title>
+      <link>https://www.producthunt.com/products/contral</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/contral</guid>
+      <pubDate>Thu, 26 Nov 2026 09:01:10 GMT</pubDate>
+      <description>The AI coding agent that checks its work and teaches you</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
     <item>
       <title>Claude-Mem Cloud Sync</title>
       <link>https://www.producthunt.com/products/claude-mem</link>
       <guid isPermaLink="true">https://www.producthunt.com/products/claude-mem</guid>
       <pubDate>Thu, 26 Nov 2026 07:58:18 GMT</pubDate>
       <description>Switch devices. Keep your AI agents&#39; memory.</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>slay</title>
+      <link>https://www.producthunt.com/products/slay-3</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/slay-3</guid>
+      <pubDate>Thu, 26 Nov 2026 07:23:58 GMT</pubDate>
+      <description>AI composition guide camera app for iPhone</description>
+      <category>Product Hunt</category>
+      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
+    </item>
+    <item>
+      <title>Periscope</title>
+      <link>https://www.producthunt.com/products/periscope-4</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/periscope-4</guid>
+      <pubDate>Thu, 26 Nov 2026 05:10:12 GMT</pubDate>
+      <description>Turn any work into an API</description>
       <category>Product Hunt</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
     </item>
@@ -132,330 +456,6 @@
       <description>12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。</description>
       <category>量子位</category>
       <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一</title>
-      <link>https://www.qbitai.com/2026/11/512916.html</link>
-      <guid isPermaLink="true">https://www.qbitai.com/2026/11/512916.html</guid>
-      <pubDate>Thu, 26 Nov 2026 06:41:23 GMT</pubDate>
-      <description>30秒一镜到底，可自动编排镜头</description>
-      <category>量子位</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习</title>
-      <link>https://www.qbitai.com/2026/11/512897.html</link>
-      <guid isPermaLink="true">https://www.qbitai.com/2026/11/512897.html</guid>
-      <pubDate>Thu, 26 Nov 2026 03:23:35 GMT</pubDate>
-      <description>李斌坦言：不做AI变革可能活不下去</description>
-      <category>量子位</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>沈向洋刚讲了好多AI非共识啊</title>
-      <link>https://www.qbitai.com/2026/11/512840.html</link>
-      <guid isPermaLink="true">https://www.qbitai.com/2026/11/512840.html</guid>
-      <pubDate>Thu, 26 Nov 2026 03:13:16 GMT</pubDate>
-      <description>“灵巧手是人类最后的尊严”</description>
-      <category>量子位</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Quoting Jack Despain Zhou</title>
-      <link>https://simonwillison.net/2026/Nov/26/jack-despain-zhou/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/26/jack-despain-zhou/</guid>
-      <pubDate>Thu, 26 Nov 2026 15:09:31 GMT</pubDate>
-      <description>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find…</description>
-      <category>Simon Willison</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>The Revolution vs The Renaissance — Thariq Shihipar, OpenAI</title>
-      <link>https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/</link>
-      <guid isPermaLink="true">https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/</guid>
-      <pubDate>Wed, 25 Nov 2026 22:28:01 GMT</pubDate>
-      <description>AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game…</description>
-      <category>Latent Space</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>[AINews] Math Proofs Are Landing Faster Than We Can Read Them</title>
-      <link>https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/</link>
-      <guid isPermaLink="true">https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/</guid>
-      <pubDate>Wed, 25 Nov 2026 22:23:41 GMT</pubDate>
-      <description>AINews by Latent Space Scott Aaronson was still trying to digest two proofs of VP ≠ VNP at dinner. Before dessert, an OpenAI paper claimed that the square matrix multiplication exponent ω is exactly 9/4. During dessert…</description>
-      <category>Latent Space</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>The New York Times warns photographers not to update Photoshop over AI features</title>
-      <link>https://simonwillison.net/2026/Nov/26/hn-50651685/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/26/hn-50651685/</guid>
-      <pubDate>Thu, 26 Nov 2026 05:08:46 GMT</pubDate>
-      <description>My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly…</description>
-      <category>Simon Willison</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Quoting Scott Aaronson</title>
-      <link>https://simonwillison.net/2026/Nov/25/scott-aaronson/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/25/scott-aaronson/</guid>
-      <pubDate>Wed, 25 Nov 2026 23:26:32 GMT</pubDate>
-      <description>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van…</description>
-      <category>Simon Willison</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>AI made self-hosting fun again</title>
-      <link>https://janlukas.blog/posts/ai-self-hosting</link>
-      <guid isPermaLink="true">https://janlukas.blog/posts/ai-self-hosting</guid>
-      <pubDate>Thu, 26 Nov 2026 21:47:45 GMT</pubDate>
-      <description>Hacker News 上获得 510 点支持、254 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>The US Government Is Under AI Cyberattack</title>
-      <link>https://www.forbes.com/sites/the-wiretap/2026/11/25/us-government-under-ai-cyberattack</link>
-      <guid isPermaLink="true">https://www.forbes.com/sites/the-wiretap/2026/11/25/us-government-under-ai-cyberattack</guid>
-      <pubDate>Thu, 26 Nov 2026 21:26:33 GMT</pubDate>
-      <description>Hacker News 上获得 22 点支持、3 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Top-cited AI scientists at four US companies compared</title>
-      <link>https://topcitedscientists.com/figures/ai-at-four-us-companies/</link>
-      <guid isPermaLink="true">https://topcitedscientists.com/figures/ai-at-four-us-companies/</guid>
-      <pubDate>Thu, 26 Nov 2026 19:44:31 GMT</pubDate>
-      <description>Hacker News 上获得 39 点支持、23 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Z.ai clarifies GLM-5.5 has not been delayed, scheduled for December launch</title>
-      <link>https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/</link>
-      <guid isPermaLink="true">https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/</guid>
-      <pubDate>Thu, 26 Nov 2026 17:55:10 GMT</pubDate>
-      <description>Hacker News 上获得 27 点支持、3 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>&#39;AI&#39; might be the end of our careers</title>
-      <link>https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/</link>
-      <guid isPermaLink="true">https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/</guid>
-      <pubDate>Thu, 26 Nov 2026 17:29:28 GMT</pubDate>
-      <description>Hacker News 上获得 35 点支持、39 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Tracking Diseases Cured by AI</title>
-      <link>https://diseasescuredbyai.com/</link>
-      <guid isPermaLink="true">https://diseasescuredbyai.com/</guid>
-      <pubDate>Thu, 26 Nov 2026 17:16:41 GMT</pubDate>
-      <description>Hacker News 上获得 307 点支持、186 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can&#39;t Send Email</title>
-      <link>https://techstackups.com/articles/google-workspace-ai-agents-mcp/</link>
-      <guid isPermaLink="true">https://techstackups.com/articles/google-workspace-ai-agents-mcp/</guid>
-      <pubDate>Thu, 26 Nov 2026 09:44:23 GMT</pubDate>
-      <description>Hacker News 上获得 304 点支持、257 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>How can people make money as AI replaces intellectual jobs?</title>
-      <link>https://news.ycombinator.com/item?id=50651911</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=50651911</guid>
-      <pubDate>Thu, 26 Nov 2026 05:46:33 GMT</pubDate>
-      <description>Hacker News 上获得 17 点支持、10 条讨论。</description>
-      <category>Hacker News</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-27.html">AI 日报</source>
-    </item>
-    <item>
-      <title>WhipDesk</title>
-      <link>https://www.producthunt.com/products/whipdesk</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/whipdesk</guid>
-      <pubDate>Wed, 25 Nov 2026 21:44:16 GMT</pubDate>
-      <description>Control AI coding agents from your phone</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>MeetFolks</title>
-      <link>https://www.producthunt.com/products/meetfolks</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/meetfolks</guid>
-      <pubDate>Wed, 25 Nov 2026 21:33:47 GMT</pubDate>
-      <description>AI Notetaker for In-Person Meetings</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Ground</title>
-      <link>https://www.producthunt.com/products/ground-2</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/ground-2</guid>
-      <pubDate>Wed, 25 Nov 2026 19:49:42 GMT</pubDate>
-      <description>Generate high quality synthetic data for testing or training</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Remora</title>
-      <link>https://www.producthunt.com/products/remora-6</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/remora-6</guid>
-      <pubDate>Wed, 25 Nov 2026 18:28:50 GMT</pubDate>
-      <description>The long-term memory layer for AI agents</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>OpenChat</title>
-      <link>https://www.producthunt.com/products/openchat-5</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/openchat-5</guid>
-      <pubDate>Wed, 25 Nov 2026 17:54:19 GMT</pubDate>
-      <description>Open-source live chat in your own Cloudflare account</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>DeskFleet</title>
-      <link>https://www.producthunt.com/products/deskfleet</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/deskfleet</guid>
-      <pubDate>Wed, 25 Nov 2026 17:17:28 GMT</pubDate>
-      <description>Run coding agents together across your team’s machines</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>iwantmy.app</title>
-      <link>https://www.producthunt.com/products/iwantmy-app</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/iwantmy-app</guid>
-      <pubDate>Wed, 25 Nov 2026 17:00:47 GMT</pubDate>
-      <description>Describe a mobile app in chat and open it on your phone</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Antipode</title>
-      <link>https://www.producthunt.com/products/antipode</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/antipode</guid>
-      <pubDate>Wed, 25 Nov 2026 16:53:32 GMT</pubDate>
-      <description>Share your unused Claude Code limits without breaking ToS</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Flurra</title>
-      <link>https://www.producthunt.com/products/flurra</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/flurra</guid>
-      <pubDate>Wed, 25 Nov 2026 16:34:30 GMT</pubDate>
-      <description>Ask Claude or ChatGPT to edit your videos</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Ottante</title>
-      <link>https://www.producthunt.com/products/ottante</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/ottante</guid>
-      <pubDate>Wed, 25 Nov 2026 15:15:16 GMT</pubDate>
-      <description>Checks the work your AI agents did, right on your Mac</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Monton</title>
-      <link>https://www.producthunt.com/products/monton</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/monton</guid>
-      <pubDate>Wed, 25 Nov 2026 13:32:15 GMT</pubDate>
-      <description>AI agents that do your agency&#39;s busywork</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>NEXUS</title>
-      <link>https://www.producthunt.com/products/nexus-42</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/nexus-42</guid>
-      <pubDate>Wed, 25 Nov 2026 12:41:13 GMT</pubDate>
-      <description>Map codebase locally and AI changes only what you approved</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>MusicProductionAI</title>
-      <link>https://www.producthunt.com/products/musicproductionai</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/musicproductionai</guid>
-      <pubDate>Wed, 25 Nov 2026 08:25:07 GMT</pubDate>
-      <description>Make music from a prompt or a hum, right in your browser</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Kagi Mail</title>
-      <link>https://www.producthunt.com/products/kagi</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/kagi</guid>
-      <pubDate>Wed, 25 Nov 2026 07:24:38 GMT</pubDate>
-      <description>Private email that puts people who need you first</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Mime</title>
-      <link>https://www.producthunt.com/products/mime</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/mime</guid>
-      <pubDate>Wed, 25 Nov 2026 07:22:06 GMT</pubDate>
-      <description>Silent dictation: mouth the words and it types them</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>MAGI-2</title>
-      <link>https://www.producthunt.com/products/magi-1</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/magi-1</guid>
-      <pubDate>Wed, 25 Nov 2026 05:35:39 GMT</pubDate>
-      <description>Sand AI&#39;s 480B model for cinematic video generation</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Clary</title>
-      <link>https://www.producthunt.com/products/clary-2</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/clary-2</guid>
-      <pubDate>Wed, 25 Nov 2026 00:47:25 GMT</pubDate>
-      <description>iOS notifications in sender&#39;s own voice from WhatsApp &amp; more</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Falcon by Vybe</title>
-      <link>https://www.producthunt.com/products/vybe-4</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/vybe-4</guid>
-      <pubDate>Tue, 24 Nov 2026 23:52:06 GMT</pubDate>
-      <description>Falcon analyzes your competitors for free, then gets to work</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Hold&#39;em</title>
-      <link>https://www.producthunt.com/products/hold-em</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/hold-em</guid>
-      <pubDate>Tue, 24 Nov 2026 22:25:40 GMT</pubDate>
-      <description>Swipe real Black Friday cart deals across Shopify</description>
-      <category>Product Hunt</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
-    </item>
-    <item>
-      <title>Amazon is reportedly in talks to end Muse AI shopping block</title>
-      <link>https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</link>
-      <guid isPermaLink="true">https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</guid>
-      <pubDate>Wed, 25 Nov 2026 14:12:33 GMT</pubDate>
-      <description>Amazon has held talks about letting Meta&#39;s Muse AI agent shop on its online marketplace, according to a report from Fortune. The s, which could end Amazon&#39;s block on Muse, reportedly center on the kinds of products the…</description>
-      <category>The Verge</category>
-      <source url="https://lorryrui.github.io/ai-daily-news/issue/2026-11-26.html">AI 日报</source>
     </item>
   </channel>
 </rss>
